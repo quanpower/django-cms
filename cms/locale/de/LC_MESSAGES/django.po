@@ -3,1861 +3,1594 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
+# death_ashaman <admiral_proton@yahoo.de>, 2014
+# Alexander Elvers <alexanderelvers@online.de>, 2017
+# Angelo Dini <finalangeljp@hotmail.com>, 2015-2017
+# Arne Schauf <transifex@asmaps.de>, 2014
+# Michael P. Jung <michael.jung@terreon.de>, 2013
+# Chive <kim@smuzey.ch>, 2015
+# death_ashaman <admiral_proton@yahoo.de>, 2014
+# Diana Dünki <diana.duenki@divio.ch>, 2015
+# giammi <gian-maria.daffre@giammi.org>, 2017
+# Hendrik Richter <hendrikr@gnome.org>, 2014
+# Jannik V. <me@exploide.net>, 2016
 # Jonas Obrist <me@ojii.ch>, 2011
-# bikeshedder <michael.jung@terreon.de>, 2013
-# Patrick Lauber <patrick.lauber@divio.ch>, 2012-2013
-# roland_rockt <rka@beautyparlour.at>, 2013
+# Chive <kim@smuzey.ch>, 2015
+# Martin Koistinen <mkoistinen@gmail.com>, 2015
+# Michael P. Jung <michael.jung@terreon.de>, 2013
+# o.zander <oliver.zander@gmail.com>, 2014
+# o.zander <oliver.zander@gmail.com>, 2014
+# Patrick Lauber <patrick.lauber@divio.ch>, 2012-2015
+# Peter Bittner <django@bittner.it>, 2015
+# Roland <rka@beautyparlour.at>, 2013
+# Roland <rka@beautyparlour.at>, 2013
+# SachaMPS <sacha@mllrsohn.com>, 2015
+# Sebastian Braun <sebastian@elmnt.de>, 2014-2015
 # Stefan Foulis <stefan.foulis@gmail.com>, 2013
+# Stefan T. Oertel <me@schneck.cc>, 2014-2015
+# djangoger <thomas.meitz@retailify.de>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: django-cms\n"
-"Report-Msgid-Bugs-To: https://github.com/divio/django-cms/issues\n"
-"POT-Creation-Date: 2013-04-09 09:51+0200\n"
-"PO-Revision-Date: 2013-05-24 08:45+0000\n"
-"Last-Translator: Patrick Lauber <patrick.lauber@divio.ch>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/django-cms/language/de/)\n"
+"Project-Id-Version: django CMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-14 12:47+0000\n"
+"PO-Revision-Date: 2017-09-14 12:57+0000\n"
+"Last-Translator: Paulo Alvarado <paulo.alvarado@divio.ch>\n"
+"Language-Team: German (http://www.transifex.com/divio/django-cms/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Country: SWITZERLAND\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-SourceCharset: utf-8\n"
 
-#: cms_toolbar.py:71
-msgid "Revert"
-msgstr "Zurücksetzen"
+msgid "Copy permissions"
+msgstr "Berechtigungen kopieren"
 
-#: cms_toolbar.py:75
-msgid "Edit mode"
-msgstr "Editiermodus"
-
-#: cms_toolbar.py:109
-msgid "django CMS"
-msgstr "django CMS"
-
-#: cms_toolbar.py:133 templates/admin/cms/page/menu_item.html:58
-#: templates/admin/cms/page/menu_item.html:71
-msgid "Publish"
-msgstr "Veröffentlichen"
-
-#: cms_toolbar.py:154
-msgid "Logout"
-msgstr "Abmelden"
-
-#: cms_toolbar.py:171
-msgid "Template"
-msgstr "Vorlage"
-
-#: cms_toolbar.py:179
-msgid "Move/add Pages"
-msgstr "Seiten verschieben / hinzufügen"
-
-#: cms_toolbar.py:184
-msgid "Add child page"
-msgstr "Unterseite hinzufügen"
-
-#: cms_toolbar.py:190
-msgid "Add sibling page"
-msgstr "Neue Seite auf gleicher Ebene erstellen"
-
-#: cms_toolbar.py:196
-msgid "Delete Page"
-msgstr "Seite löschen"
-
-#: cms_toolbar.py:199 templates/admin/cms/page/permissions.html:5
-msgid "Page"
-msgstr "Seite"
-
-#: cms_toolbar.py:208
-msgid "Site Administration"
-msgstr "Administration"
-
-#: cms_toolbar.py:214
-msgid "Page Settings"
-msgstr "Seite bearbeiten"
-
-#: cms_toolbar.py:220
-msgid "View History"
-msgstr "Verlauf anzeigen"
-
-#: cms_toolbar.py:224
-msgid "Admin"
-msgstr "Administration"
-
-#: plugin_base.py:72
-msgid "Advanced options"
-msgstr "Erweiterte Einstellungen"
-
-#: admin/forms.py:61
-msgid "Title"
-msgstr "Titel"
-
-#: admin/forms.py:62
-msgid "The default title"
-msgstr "Der Standardtitel"
-
-#: admin/forms.py:63
-msgid "Slug"
-msgstr "Slug"
-
-#: admin/forms.py:64
-msgid "The part of the title that is used in the URL"
-msgstr "Die Kurzform des Titels, die in URLs verwendet wird."
-
-#: admin/forms.py:65
 msgid "Language"
 msgstr "Sprache"
 
-#: admin/forms.py:66
 msgid "The current language of the content fields."
 msgstr "Sprachvariante dieser Seite, die bearbeitet werden soll."
 
-#: admin/forms.py:113
-msgid "Another page with this slug already exists"
-msgstr "Eine andere Seite mit diesem Slug existiert bereits"
+msgid "Page type"
+msgstr "Seitentyp"
 
-#: admin/forms.py:151
+msgid "Title"
+msgstr "Titel"
+
+msgid "The default title"
+msgstr "Der Standardtitel"
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "The part of the title that is used in the URL"
+msgstr "Die Kurzform des Titels, die in URLs verwendet wird"
+
 msgid "Menu Title"
 msgstr "Menütitel"
 
-#: admin/forms.py:152
 msgid "Overwrite what is displayed in the menu"
 msgstr "Überschreiben, was im Menü angezeigt wird"
 
-#: admin/forms.py:153
 msgid "Page Title"
 msgstr "Seitentitel"
 
-#: admin/forms.py:154
 msgid ""
 "Overwrites what is displayed at the top of your browser or in bookmarks"
 msgstr "Überschreiben, was im Titel des Browsers oder in den Lesezeichen erscheint"
 
-#: admin/forms.py:155
+msgid "Description meta tag"
+msgstr "\"Description\" Meta-Tag"
+
+msgid "A description of the page used by search engines."
+msgstr "Eine Beschreibung der Seite. Wird teilweise von Suchmaschinen genutzt."
+
+msgid "Another page with this slug already exists"
+msgstr "Eine andere Seite mit diesem Slug existiert bereits"
+
+msgid "Slug must not be empty."
+msgstr "Slug darf nicht leer sein."
+
 msgid "Application"
 msgstr "Applikation"
 
-#: admin/forms.py:157
 msgid "Hook application to this page."
-msgstr "Schliessen Sie Applikationen an diese Seite an."
+msgstr "Schließen Sie Applikationen an diese Seite an."
 
-#: admin/forms.py:158
 msgid "Overwrite URL"
-msgstr "URL-Überschreibung"
+msgstr "Manuelle URL"
 
-#: admin/forms.py:159
 msgid "Keep this field empty if standard path should be used."
-msgstr "Lassen Sie dieses Feld leer, wenn der Standardpfad verwendet werden soll."
+msgstr "Lassen Sie dieses Feld leer, wenn die automatisch generierte URL verwendet werden soll."
 
-#: admin/forms.py:161
+msgid "X Frame Options"
+msgstr "\"X-Frame\"-Optionen"
+
+msgid "Whether this page can be embedded in other pages or websites"
+msgstr "Kann diese Seite auf anderen Seiten eingebettet werden?"
+
 msgid "Redirect"
 msgstr "Umleiten"
 
-#: admin/forms.py:162
 msgid "Redirects to this URL."
 msgstr "Zu dieser URL umleiten"
 
-#: admin/forms.py:164
-msgid "A description of the page sometimes used by search engines."
-msgstr "Eine Beschreibung der Seite (wird teilweise von Suchmaschinen genutzt)"
+msgid "Start typing..."
+msgstr "Geben Sie etwas ein …"
 
-#: admin/forms.py:166
-msgid "A list of comma seperated keywords sometimes used by search engines."
-msgstr "Eine Liste von mit Kommas getrennten Schlüsselwörtern (wird teilweise von Suchmaschinen genutzt)"
+msgid "Application configurations"
+msgstr "Applikations Konfiguration"
 
-#: admin/forms.py:182
+msgid "Language independent options"
+msgstr "Sprach unabhängige Einstellungen"
+
+#, python-format
+msgid ""
+"Please create the %(language)s page translation before editing its advanced "
+"settings."
+msgstr "Bitte erstellen Sie zuerst die %(language)s Seite bevor Sie die erweiterten Einstellungen bearbeiten."
+
+#, python-format
+msgid "Please set the %(language)s slug before editing its advanced settings."
+msgstr "Bitte erstellen Sie zuerst den %(language)s \"Slug\" bevor Sie die erweiterten Einstellungen bearbeiten."
+
 msgid "A page with this reverse URL id exists already."
 msgstr "Eine andere Seite mit dieser Reverse-URL-ID ist bereits vorhanden."
 
-#: admin/forms.py:199 admin/forms.py:200 models/permissionmodels.py:39
+msgid "An application instance using this configuration already exists."
+msgstr "Eine Applikation-Instanz mit dieser Konfiguration existiert bereits."
+
+msgid "An application instance with this name already exists."
+msgstr "Eine Applikation-Instanz mit diesem Namen existiert bereits."
+
 msgid "user"
 msgstr "Benutzer"
 
-#: admin/forms.py:224
-msgid ""
-"Add page permission requires also access to children, or descendants, "
-"otherwise added page can't be changed by its creator."
-msgstr "Zum Hinzufügen von Seiten muss der Zugriff auf Unterseiten ebenfalls ermöglicht werden, sonst können neu erstellte Seiten nach dem ersten Speichervorgang nicht mehr bearbeitet werden."
-
-#: admin/forms.py:229
-msgid "Add page permission also requires edit page permission."
-msgstr "Die \"Seiten hinzufügen\"-Berechtigung benötigt auch die \"Bearbeiten\"-Berechtigung"
-
-#: admin/forms.py:256
 msgid "can_view"
 msgstr "Kann sehen"
 
-#: admin/forms.py:268
-msgid "Please select user or group first."
-msgstr "Bitte wählen Sie erst einen Benutzer oder eine Gruppe"
-
-#: admin/forms.py:275 admin/forms.py:282 admin/forms.py:286
-#: templates/admin/cms/page/change_form.html:73
-#: templates/admin/cms/page/plugin_change_form.html:76
-#: templates/cms/toolbar/placeholder.html:26
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: admin/forms.py:276 admin/forms.py:283 admin/forms.py:287
 msgid "Change"
 msgstr "Ändern"
 
-#: admin/forms.py:277 admin/forms.py:284 admin/forms.py:288
-#: templates/admin/page_submit_line.html:5
-#: templates/admin/cms/page/menu_item.html:44
 msgid "Delete"
 msgstr "Löschen"
 
-#: admin/forms.py:278
-msgid "Recover (any) pages"
-msgstr "Kann Seiten wiederherstellen"
-
-#: admin/forms.py:305
-msgid "Notify user"
-msgstr "Benutzer benachrichtigen"
-
-#: admin/forms.py:306
 msgid ""
-"Send email notification to user about username or password change. Requires "
-"user email."
-msgstr "Benachrichtigung über Änderungen von Benutzername oder Passwort per E-Mail an den Benutzer senden. Benötigt die E-Mail-Adresse des Benutzers."
+"Users can't create a page without permissions to change the created page. "
+"Edit permissions required."
+msgstr "Benutzer können keine Seite erstellen, ohne die Berechtigung zu haben, die erstellte Seite zu editieren. Eine Anpassung der Berechtigungen ist nötig."
 
-#: admin/forms.py:326
-msgid "New password"
-msgstr "Neues Passwort"
-
-#: admin/forms.py:328
-msgid "New password confirmation"
-msgstr "Bestätigung des neuen Passworts"
-
-#: admin/forms.py:347
-msgid "Email notification requires valid email address."
-msgstr "E-Mail-Benachrichtigung benötigt eine gültige E-Mail-Adresse."
-
-#: admin/forms.py:349
 msgid ""
-"The permission to add new pages requires the permission to change pages!"
-msgstr "Die Berechtigung neue Seiten hinzuzufügen benötigt die Berechtigung Seiten zu ändern."
+"Users can't delete a page without permissions to change the page. Edit "
+"permissions required."
+msgstr "Benutzer können keine Seite löschen, ohne die Berechtigung zu haben, die Seite zu editieren. Eine Anpassung der Berechtigungen ist nötig."
 
-#: admin/forms.py:351
 msgid ""
-"The permission to add new users requires the permission to change users!"
-msgstr "Die Berechtigung neue Benutzer hinzufügen benötigt die Berechtigung Benutzer zu ändern."
+"Users can't set page permissions without permissions to change a page. Edit "
+"permissions required."
+msgstr "Benutzer können keine Seitenberechtigungen setzen, ohne die Berechtigung zu haben, Seiten zu editieren. Eine Anpassung der Berechtigungen ist nötig."
 
-#: admin/forms.py:353
-msgid "To add permissions you also need to edit them!"
-msgstr "Um Berechtigungen hinzuzufügen, müssen Sie sie auch ändern können."
+msgid ""
+"Users can't delete page permissions without permissions to change a page. "
+"Edit permissions required."
+msgstr "Benutzer können keine Seitenberechtigungen löschen, ohne die Berechtigung zu haben, Seiten zu editieren. Eine Anpassung der Berechtigungen ist nötig."
 
-#: admin/pageadmin.py:103
-msgid "Basic Settings"
-msgstr "Grundeinstellungen"
+msgid ""
+"Users can't create page permissions without permissions to change the "
+"created permission. Edit permissions required."
+msgstr "Benutzer können keine Seitenberechtigungen erstellen, ohne die Berechtigung zu haben, die erstellte Berechtigung zu editieren. Eine Anpassung der Berechtigungen ist nötig."
 
-#: admin/pageadmin.py:106
-msgid "Note: This page reloads if you change the selection. Save it first."
-msgstr "Hinweis: Diese Seite wird neu geladen, wenn Sie die Auswahl ändern. Speichern Sie sie zuerst."
+msgid ""
+"Users can't delete page permissions without permissions to change "
+"permissions. Edit permissions required."
+msgstr "Benutzer können keine Seitenberechtigungen löschen, ohne die Berechtigung zu haben, Berechtigungen zu editieren. Eine Anpassung der Berechtigungen ist nötig."
 
-#: admin/pageadmin.py:108 admin/pageadmin.py:159
-msgid "Hidden"
-msgstr "Versteckt"
+#, python-format
+msgid "Invalid plugin type '%s'"
+msgstr "Invalider plugin typ '%s'"
 
-#: admin/pageadmin.py:112
+msgid "Language must be set to a supported language!"
+msgstr "Sprache muss auf eine unterstützte Sprache gesetzt werden!"
+
+msgid "Parent plugin language must be same as language!"
+msgstr "Übergerordnetes Plugin muss die gleiche Sprache sein!"
+
+#| msgid "Parent plugin language must be same as language!"
+msgid "Parent plugin placeholder must be same as placeholder!"
+msgstr "Übergerordnetes Plugin muss im selben Platzhalter sein!"
+
+#, python-format
+msgid ""
+"Please create the %(language)s page translation before editing it's advanced"
+" settings."
+msgstr "Bitte erstellen Sie zuerst die %(language)s Seite bevor Sie die erweiterten Einstellungen bearbeiten."
+
 msgid "Advanced Settings"
 msgstr "Erweiterte Einstellungen"
 
-#: admin/pageadmin.py:119
-msgid "SEO Settings"
-msgstr "Einstellungen zur Suchmaschinenoptimierung (SEO)"
+msgid "Publishing dates"
+msgstr "Veröffentlichungs-Datum"
 
-#: admin/pageadmin.py:638
-msgid "You do not have permission to change pages."
-msgstr "Sie haben keine Berechtigung um Seiten zu ändern."
+msgid "Change Permissions"
+msgstr "Berechtigungen bearbeiten"
 
-#: admin/pageadmin.py:650
-msgid "Database error"
-msgstr "Datenbankfehler"
+msgid "Add Page Type"
+msgstr "Seitentyp hinzufügen"
 
-#: admin/pageadmin.py:743
+msgid "Add Page Copy"
+msgstr "Seitenkopie hinzufügen"
+
+msgid "New sub page"
+msgstr "Neue Unterseite"
+
+msgid "New page"
+msgstr "Neue Seite"
+
 msgid "You do not have permission to change the template"
-msgstr "Sie haben keine Berechtigung das Template zu ändern."
+msgstr "Sie haben keine Berechtigung das Template zu ändern"
 
-#: admin/pageadmin.py:747
 msgid "Template not valid"
-msgstr "Template ist ungültig."
+msgstr "Template ist ungültig"
 
-#: admin/pageadmin.py:752
-#, python-format
-msgid "Template changed to %s"
-msgstr "Template wurde auf %s geändert."
-
-#: admin/pageadmin.py:754
 msgid "The template was successfully changed"
 msgstr "Das Template wurde erfolgreich geändert"
 
-#: admin/pageadmin.py:776
 msgid ""
 "Error! You don't have permissions to move this page. Please reload the page"
-msgstr "Error! Sie haben keine Berechtigung dies Seite zu verschieben. Bitte laden Sie die Seite neu."
+msgstr "Error! Sie haben keine Berechtigung, um diese Seite zu verschieben. Bitte laden Sie die Seite neu."
 
-#: admin/pageadmin.py:780
-msgid "Page moved"
-msgstr "Seite verschoben"
+msgid "You do not have permission to copy these plugins."
+msgstr "Sie haben keine Berechtigung, dieses Plugin zu kopieren."
 
-#: admin/pageadmin.py:866 admin/pageadmin.py:1054
+#| msgid "You do not have permission to edit this page"
+msgid "You do not have permission to revert this page."
+msgstr "Sie sind nicht berechtigt diese Seite zu wiederherstellen."
+
+#, python-format
+msgid "\"%s\" was reverted to the live version."
+msgstr "\"%s\" wurde auf die Live Version zurück gestellt."
+
 msgid "You do not have permission to publish this page"
 msgstr "Sie haben nicht die Berechtigung, um diese Seite zu veröffentlichen."
 
-#: admin/pageadmin.py:868
-#, python-format
-msgid "The page \"%s\" was successfully published."
-msgstr "Die Seite \"%s\" wurde erfolgreich veröffentlicht."
+msgid "Page not published! A parent page is not published yet."
+msgstr "Seite wurde nicht publiziert! Eine übergeordnete Seite ist noch nicht publiziert."
 
-#: admin/pageadmin.py:910 admin/pageadmin.py:946 admin/pageadmin.py:1178
-#: admin/pageadmin.py:1211 admin/pageadmin.py:1344 admin/pageadmin.py:1376
+msgid "The content was successfully published."
+msgstr "Der Inhalt wurde erfolgreich publiziert."
+
+msgid "There was a problem publishing your content"
+msgstr "Wärend dem publizieren ihres Inhalts ist ein Problem aufgetreten "
+
+msgid "You do not have permission to unpublish this page"
+msgstr "Sie haben keine Berechtigung dies Seite privat zu machen"
+
+msgid "This page was never published"
+msgstr "Diese Seite war niemals publiziert"
+
+#, python-format
+msgid "The %(language)s page \"%(page)s\" was successfully unpublished"
+msgstr "Die %(language)s Seite \"%(page)s\" wurde erfolgreich auf nicht öffentlich gesetzt"
+
 msgid "You do not have permission to change this page"
-msgstr "Sie haben nicht die Berechtigung, um diese Seite zu ändern."
+msgstr "Sie haben nicht die Berechtigung, um diese Seite zu ändern"
 
-#: admin/pageadmin.py:914
-#, python-format
-msgid "The page \"%s\" was successfully reverted."
-msgstr "Die Seite \"%s\" wurde erfolgreich zurückgesetzt."
-
-#: admin/pageadmin.py:950
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
 msgstr "%(name)s Objekt mit Primärschlüssel %(key)r existiert nicht."
 
-#: admin/pageadmin.py:956
 msgid "There only exists one translation for this page"
 msgstr "Es existiert nur eine Übersetzung für diese Seite"
 
-#: admin/pageadmin.py:985
 #, python-format
 msgid "Title and plugins with language %(language)s was deleted"
 msgstr "Titel und Plugins mit der Sprache %(language)s wurden gelöscht"
 
-#: admin/pageadmin.py:1007
 msgid "Are you sure?"
 msgstr "Sind Sie sicher?"
 
-#: admin/pageadmin.py:1063
 #, python-format
-msgid "The page \"%s\" was successfully unpublished"
-msgstr "Die Freigabe der Seite \"%s\" wurde erfolgreich widerrufen."
+#| msgid "You do not have permission to change pages."
+msgid "You don't have permissions to see page \"%(title)s\""
+msgstr "Keine Berechtigung die Seite \"%(title)s\" anzusehen."
 
-#: admin/pageadmin.py:1065
-#, python-format
-msgid "The page \"%s\" was successfully published"
-msgstr "Die Seite \"%s\" wurde erfolgreich veröffentlicht"
-
-#: admin/pageadmin.py:1083
 msgid "You do not have permission to change this page's in_navigation status"
-msgstr "Sie haben nicht Berechtigung, um den \"im Menü\"-Status dieser Seite zu ändern."
+msgstr "Sie haben keine Berechtigung, um den \"im Menü\"-Status dieser Seite zu ändern"
 
-#: admin/pageadmin.py:1108
-msgid "You do not have permission to add a plugin"
-msgstr "Sie haben nicht die notwendigen Rechte um das Plugin hinzuzufügen."
+msgid "Page Types"
+msgstr "Seitentypen"
 
-#: admin/pageadmin.py:1149 admin/pageadmin.py:1180
-msgid "Language must be set to a supported language!"
-msgstr "Die Sprache muss auf eine unterstützte Sprache gesetzt werden."
+msgid "You do not have permission to edit this page"
+msgstr "Sie haben nicht die Berechtigung, diese Seite zu bearbeiten."
 
-#: admin/pageadmin.py:1160
-#, python-format
-msgid "%(plugin_name)s plugin added to %(placeholder)s"
-msgstr "%(plugin_name)s-Plugin wurde in %(placeholder)s eingefügt."
-
-#: admin/pageadmin.py:1182
-msgid "Language must be different than the copied language!"
-msgstr "Die Sprache muss sich von der kopierten unterscheiden!"
-
-#: admin/pageadmin.py:1188
-msgid "You do not have permission to add plugins"
-msgstr "Du hast keine Berechtigung Plugins hinzuzufügen."
-
-#: admin/pageadmin.py:1193
-#, python-format
-msgid "Copied %(language)s plugins to %(placeholder)s"
-msgstr "Plugins von %(language)s wurden nach %(placeholder)s kopiert."
-
-#: admin/pageadmin.py:1243
-msgid "This plugin is not saved in a revision"
-msgstr "Dieses Plugin wurde nicht in einer Revision gespeichert."
-
-#: admin/pageadmin.py:1246 admin/pageadmin.py:1340
-msgid "You do not have permission to edit a plugin"
-msgstr "Sie haben keine Berechtigung ein Plugin zu editieren."
-
-#: admin/pageadmin.py:1306
-#, python-format
-msgid ""
-"%(plugin_name)s plugin edited at position %(position)s in %(placeholder)s"
-msgstr "%(plugin_name)s-Plugin auf der %(position)s Position in %(placeholder)s wurde geändert."
-
-#: admin/pageadmin.py:1371
-msgid "You do not have permission to move a plugin"
-msgstr "Sie haben keine Berechtigung ein Plugin zu verschieben."
-
-#: admin/pageadmin.py:1390
-msgid "Plugins were moved"
-msgstr "Plugins wurden verschoben"
-
-#: admin/pageadmin.py:1403 admin/pageadmin.py:1412
-msgid "You do not have permission to remove a plugin"
-msgstr "Sie haben keine Berechtigung um Plugins zu entfernen."
-
-#: admin/pageadmin.py:1422 admin/placeholderadmin.py:348
-#, python-format
-msgid ""
-"%(plugin_name)s plugin at position %(position)s in %(placeholder)s was "
-"deleted."
-msgstr "Das %(plugin_name)s-Plugin auf Position %(position)s in %(placeholder)s wurde gelöscht."
-
-#: admin/permissionadmin.py:75
 msgid "View restriction"
-msgstr "Ansichtsbeschränkungen"
+msgstr "Ansichts-Beschränkung"
 
-#: admin/permissionadmin.py:76
 msgid "View restrictions"
-msgstr "Ansichtsbeschränkungen"
+msgstr "Ansichts-Beschränkungen"
 
-#: admin/permissionadmin.py:130 models/permissionmodels.py:97
+#, python-format
+msgid "Field %s not found"
+msgstr "Feld %s nicht gefunden"
+
+msgid "You do not have permission to edit this item"
+msgstr "Sie haben keine Berechtigung dieses Objekt zu editieren."
+
+msgid "You do not have permission to add a plugin"
+msgstr "Sie haben nicht die notwendigen Rechte, um das Plugin hinzuzufügen."
+
+#| msgid "You do not have permission to clear this placeholder"
+msgid "You do not have permission to copy this placeholder."
+msgstr "Sie haben nicht die Berechtigung, um diesen Platzhalter zu kopieren."
+
+msgid "Plugin not found"
+msgstr "Plugin nicht gefunden"
+
+msgid "You do not have permission to edit this plugin"
+msgstr "Sie haben nicht die Berechtigung, dieses Plugin zu bearbeiten."
+
+msgid "order parameter references plugins in different trees"
+msgstr "order Parameter referenziert Plugins in unterschiedlichen Bäumen"
+
+msgid "parent must be in the same placeholder"
+msgstr "Elternteil muss im selben Platzhalter sein"
+
+msgid "parent must be in the same language as plugin_language"
+msgstr "Elternteil muss in der selben Sprache wie \"plugin_language\" sein"
+
+#| msgid "You have no permission to move this plugin"
+msgid "You have no permission to paste this plugin"
+msgstr "Keine Berechtigung dieses Plugin einzufügen"
+
+#| msgid "You have no permission to move this plugin"
+msgid "You have no permission to paste this placeholder"
+msgstr "Sie haben keine Berechtigung diesen Platzhalter einzufügen"
+
+msgid "You have no permission to move this plugin"
+msgstr "Sie haben nicht die Berechtigung dieses Plugin zu verschieben."
+
+#| msgid "You have no permission to move this plugin"
+msgid "You have no permission to cut this plugin"
+msgstr "Sie haben keine Berechtigung dieses Plugin auszuschneiden"
+
+msgid "You do not have permission to delete this plugin"
+msgstr "Sie haben nicht die Berechtigung, dieses Plugin zu löschen."
+
+#, python-format
+msgid "The %(name)s plugin \"%(obj)s\" was deleted successfully."
+msgstr "Das %(name)s Plugin \"%(obj)s\" wurde erfolgreich gelöscht."
+
+#, python-format
+msgid "Cannot delete %(name)s"
+msgstr "%(name)s konnte nicht gelöscht werden"
+
+msgid "You do not have permission to clear this placeholder"
+msgstr "Sie haben nicht die Berechtigung, um diesen Platzhalter zu leeren"
+
+#, python-format
+msgid "The placeholder \"%(obj)s\" was cleared successfully."
+msgstr "Der Platzhalter \"%(obj)s\" wurde erfolgreich geleert."
+
+msgid "placeholder"
+msgstr "Platzhalter"
+
 msgid "Page permissions"
 msgstr "Seiten-Berechtigungen"
 
-#: admin/permissionadmin.py:131
 msgid "User & Group permissions"
 msgstr "Benutzer- und Gruppen-Berechtigungen"
 
-#: admin/permissionadmin.py:132
 msgid "Page permissions management"
 msgstr "Verwaltung der Benutzer-Berechtigungen"
 
-#: admin/placeholderadmin.py:190 admin/placeholderadmin.py:216
-msgid "You don't have permission to add content here."
-msgstr "Du hast keine Berechtigung, hier Inhalte hinzuzufügen."
+#, python-format
+msgid "No registered apphook \"%r\" found"
+msgstr "Kein registrierter apphook \"%r\" gefunden"
 
-#: admin/placeholderadmin.py:212
-msgid "You don't have permission to add plugins"
-msgstr "Du hast keine Berechtigung Plugins hinzuzufügen."
+msgid "django CMS"
+msgstr "django CMS"
 
-#: admin/placeholderadmin.py:344
-msgid "You don't have permission to delete a plugin"
-msgstr "Du hast keine Berechtigung, Plugins zu entfernen."
+msgid "Placeholder"
+msgstr "Platzhalter"
 
-#: admin/useradmin.py:26
-msgid "User details"
-msgstr "Benutzer-Details"
+msgid "Alias"
+msgstr "Verlinkung"
 
-#: admin/useradmin.py:27
-msgid "Groups"
-msgstr "Gruppen"
+msgid "Create Alias"
+msgstr "Verlinkung erstellen"
 
-#: admin/useradmin.py:37 templates/cms/toolbar/items/login.html:7
-msgid "Password"
-msgstr "Passwort"
+#, python-format
+msgid ""
+"This is an alias reference, you can edit the content only on the <a "
+"href=\"%(page_url)s?edit\" target=\"_parent\">%(page_title)s</a> page."
+msgstr "Dies ist eine Alias-Referenz. Der Inhalt kann nur auf der Seite <a href=\"%(page_url)s?edit\" target=\"_parent\">%(page_title)s</a> bearbeitet werden."
 
-#: admin/dialog/forms.py:9
-msgid "Copy permissions"
-msgstr "Berechtigungen kopieren"
+msgid "Structure"
+msgstr "Struktur"
 
-#: forms/fields.py:19
+msgid "Content"
+msgstr "Inhalt"
+
+msgid "Create"
+msgstr "Erstellen"
+
+msgid "Sites"
+msgstr "Website"
+
+msgid "Admin Sites"
+msgstr "Webseiten bearbeiten"
+
+msgid "Administration"
+msgstr "Administration"
+
+msgid "User settings"
+msgstr "Benutzer-Einstellungen"
+
+msgid "Clipboard..."
+msgstr "Zwischenablage..."
+
+msgid "Clear clipboard"
+msgstr "Zwischenablage leeren"
+
+msgid "Disable toolbar"
+msgstr "Toolbar abschalten"
+
+msgid "Users"
+msgstr "Benutzer"
+
+#, python-format
+msgid "Logout %s"
+msgstr "%s abmelden"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+#| msgid "Publish changes"
+msgid "Publish page changes"
+msgstr "Seitenänderungen veröffentlichen"
+
+msgid "Publish page now"
+msgstr "Seite jetzt veröffentlichen"
+
+msgid "Page settings"
+msgstr "Seiten-Einstellungen"
+
+#| msgid "Add %(language)s Translation"
+msgid "Add Translation"
+msgstr "Übersetzung hinzufügen"
+
+#| msgid "Delete %(language)s Translation"
+msgid "Delete Translation"
+msgstr "Übersetzung löschen"
+
+#| msgid "Copy all plugins from %s"
+msgid "Copy all plugins"
+msgstr "Alle Plugins kopieren"
+
+#, python-format
+msgid "from %s"
+msgstr "von %s"
+
+#, python-format
+#| msgid "Are you sure you want copy all plugins from %s?"
+msgid "Are you sure you want to copy all plugins from %s?"
+msgstr "Sind Sie sicher, dass Sie alle Plugins von %s kopieren wollen?"
+
+msgid "Pages"
+msgstr "Seiten"
+
+msgid "Page"
+msgstr "Seite"
+
+#| msgid "Create"
+msgid "Create Page"
+msgstr "Seite erstellen"
+
+msgid "New Page"
+msgstr "Neue Seite"
+
+msgid "New Sub Page"
+msgstr "Neue Unterseite"
+
+msgid "Duplicate this Page"
+msgstr "Diese Seite duplizieren"
+
+msgid "Edit this Page"
+msgstr "Diese Seite editieren"
+
+msgid "Advanced settings"
+msgstr "Erweiterte Einstellungen"
+
+msgid "Templates"
+msgstr "Vorlagen"
+
+msgid "Save as Page Type"
+msgstr "Als Seitentyp speichern"
+
+msgid "Permissions"
+msgstr "Seiten-Berechtigungen"
+
+msgid "Hide in navigation"
+msgstr "Im Menu verstecken"
+
+msgid "Display in navigation"
+msgstr "Im Menu anzeigen"
+
+msgid "Unpublish page"
+msgstr "Seite unpublizieren"
+
+msgid "Publish page"
+msgstr "Seite publizieren"
+
+msgid "Are you sure you want to revert to live?"
+msgstr "Sind Sie sicher, dass Sie alle Änderungen verwerfen wollen?"
+
+msgid "Revert to live"
+msgstr "Änderungen verwerfen"
+
+msgid "Delete page"
+msgstr "Seite löschen"
+
+msgid "Create a new page next to the current page."
+msgstr "Erstelle eine neue Seite auf der gleichen Ebene wie die aktuelle."
+
+msgid "Create a page below the current page."
+msgstr "Erstelle eine neue Seite unterhalb der aktuellen."
+
 msgid "Select a valid site"
-msgstr "Wähle eine gültige Webseite"
+msgstr "Wählen Sie eine gültige Webseite"
 
-#: forms/fields.py:20
 msgid "Select a valid page"
-msgstr "Wähle eine gültige Seite"
+msgstr "Wählen Sie eine gültige Seite"
 
-#: forms/widgets.py:176
 msgid "Add Another"
 msgstr "Weitere hinzufügen"
 
-#: models/moderatormodels.py:24
-msgid "created"
+msgid "Provide a title for the new page."
+msgstr "Füge einen Titel für die neue Seite ein."
+
+msgid "Leave empty for automatic slug, or override as required."
+msgstr "Leer lassen um automatisch zu generieren, oder manuell überschreiben."
+
+msgid ""
+"Optional. If supplied, will be automatically added within a new text plugin."
+msgstr "Optional. Falls ausgefüllt, fügt automatisch ein neues Text Plugin ein."
+
+msgid "page"
+msgstr "Seite"
+
+msgid "User does not have permission to add page."
+msgstr "Benutzer hat keine Berechtigung, um eine neue Seite zu erstellen."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "position"
+msgstr "Position"
+
+msgid "language"
+msgstr "Sprache"
+
+msgid "plugin_name"
+msgstr "plugin_name"
+
+msgid "creation date"
 msgstr "erstellt am"
 
-#: models/moderatormodels.py:25
-msgid "changed"
-msgstr "geändert"
+msgid "can edit"
+msgstr "Kann bearbeiten"
 
-#: models/moderatormodels.py:37
-msgid "Page moderator state"
-msgstr "Status der Moderierung"
+msgid "can add"
+msgstr "Kann hinzufügen"
 
-#: models/moderatormodels.py:38
-msgid "Page moderator states"
-msgstr "Status der Moderierung"
+msgid "can delete"
+msgstr "Kann löschen"
 
-#: models/pagemodel.py:34
-msgid "for logged in users only"
-msgstr "Nur für angemeldete Benutzer"
+msgid "can change advanced settings"
+msgstr "Kann erweiterte Einstellungen ändern"
 
-#: models/pagemodel.py:35
-msgid "for anonymous users only"
-msgstr "Nur für nicht angemeldete Benutzer"
+msgid "can publish"
+msgstr "kann publizieren"
 
-#: models/pagemodel.py:45
+msgid "can change permissions"
+msgstr "Kann Berechtigungen ändern"
+
+msgid "can move"
+msgstr "Kann verschieben"
+
+msgid "view restricted"
+msgstr "Ansicht eingeschränkt"
+
+msgid "can recover pages"
+msgstr "Kann Seiten wiederherstellen"
+
+msgid "group"
+msgstr "Gruppe"
+
+msgid "sites"
+msgstr "Website"
+
 msgid "created by"
-msgstr "erstellt von"
+msgstr "Erstellt von"
 
-#: models/pagemodel.py:46 templates/admin/cms/page/change_list_tree.html:15
 msgid "changed by"
 msgstr "Geändert von"
 
-#: models/pagemodel.py:51
 msgid "publication date"
 msgstr "Veröffentlicht am"
 
-#: models/pagemodel.py:52
+msgid "publication end date"
+msgstr "Veröffentlicht bis"
+
+msgid "in navigation"
+msgstr "im Menü"
+
+msgid "soft root"
+msgstr "Softroot"
+
+msgid "id"
+msgstr "ID"
+
+msgid "attached menu"
+msgstr "Angehängtes Menu"
+
+msgid "template"
+msgstr "Vorlage"
+
+msgid "login required"
+msgstr "Login erforderlich"
+
+msgid "menu visibility"
+msgstr "Menü-Sichtbarkeit"
+
+msgid "application"
+msgstr "Applikation"
+
+msgid "application instance name"
+msgstr "Applikations-Instanz-Name"
+
+msgid "site"
+msgstr "Website"
+
+msgid "Grant on"
+msgstr "Gewähren"
+
+msgid "for logged in users only"
+msgstr "Nur für angemeldete Benutzer"
+
+msgid "for anonymous users only"
+msgstr "Nur für nicht angemeldete Benutzer"
+
+msgid "Inherit from parent page"
+msgstr "Von übergeordneter Seite erben"
+
+msgid "Deny"
+msgstr "Verbieten"
+
+msgid "Only this website"
+msgstr "Nur diese Webseite"
+
+msgid "Allow"
+msgstr "Erlauben"
+
 msgid ""
 "When the page should go live. Status must be \"Published\" for page to go "
 "live."
 msgstr "Ab wann soll die Seite veröffentlicht werden? Der Status der Seite muss dazu auf \"veröffentlicht\" sein. "
 
-#: models/pagemodel.py:53
-msgid "publication end date"
-msgstr "Veröffentlicht bis"
-
-#: models/pagemodel.py:54
 msgid "When to expire the page. Leave empty to never expire."
 msgstr "Ablaufdatum der Seite. Leer lassen, um sie nie ablaufen zu lassen."
 
-#: models/pagemodel.py:56 templates/admin/cms/page/change_list_tree.html:9
-msgid "in navigation"
-msgstr "im Menü"
-
-#: models/pagemodel.py:57
-msgid "soft root"
-msgstr "Softroot"
-
-#: models/pagemodel.py:58
 msgid "All ancestors will not be displayed in the navigation"
-msgstr "Alle übergeordneten Seiten werden nicht im Menü dargestellt."
+msgstr "Alle übergeordneten Seiten werden nicht im Menü dargestellt"
 
-#: models/pagemodel.py:59
-msgid "id"
-msgstr "ID"
-
-#: models/pagemodel.py:60
 msgid ""
-"An unique identifier that is used with the page_url templatetag for linking "
+"A unique identifier that is used with the page_url templatetag for linking "
 "to this page"
-msgstr "Ein einzigartiger Identifikator, der benutzt wird, um mit dem page_url templatetag auf diese Seite zu verlinken."
+msgstr "Ein einzigartiger Identifikator, der benutzt wird, um mit dem page_url templatetag auf diese Seite zu verlinken"
 
-#: models/pagemodel.py:61
-msgid "attached menu"
-msgstr "Angehängtes Menu"
-
-#: models/pagemodel.py:62
-msgid "is published"
-msgstr "veröffentlicht"
-
-#: models/pagemodel.py:64 plugins/snippet/models.py:14
-msgid "template"
-msgstr "Vorlage"
-
-#: models/pagemodel.py:65
 msgid "The template used to render the content."
-msgstr "Die benutzte Vorlage um die Seite darzustellen."
+msgstr "Die benutzte Vorlage, um die Seite darzustellen."
 
-#: models/pagemodel.py:66
 msgid "The site the page is accessible at."
 msgstr "Die Webseite (Domain), wo die Seite verfügbar ist."
 
-#: models/pagemodel.py:66
-msgid "site"
-msgstr "Website"
-
-#: models/pagemodel.py:68
-msgid "login required"
-msgstr "Login erforderlich"
-
-#: models/pagemodel.py:69
-msgid "menu visibility"
-msgstr "Menu sichtbarkeit"
-
-#: models/pagemodel.py:71
 msgid "limit when this page is visible in the menu"
-msgstr "Limitiert wer diese Seite im Menu sehen kann."
+msgstr "Limitiert, wer diese Seite im Menu sehen kann."
 
-#: models/pagemodel.py:96 models/permissionmodels.py:91
-#: models/titlemodels.py:22 plugins/inherit/forms.py:9 plugins/link/forms.py:9
-#: plugins/link/models.py:12 plugins/picture/models.py:23
-#: plugins/teaser/models.py:13
-msgid "page"
-msgstr "Seite"
-
-#: models/pagemodel.py:97
 msgid "pages"
 msgstr "Seiten"
 
-#: models/pagemodel.py:304
-msgid "Page was copied."
-msgstr "Seite wurde kopiert."
+msgid "Empty"
+msgstr "Leer"
 
-#: models/pagemodel.py:772
 msgid "default"
 msgstr "Standard"
 
-#: models/permissionmodels.py:27
 msgid "Current page"
 msgstr "Aktuelle Seite"
 
-#: models/permissionmodels.py:28
 msgid "Page children (immediate)"
 msgstr "Direkt untergeordnete Seite"
 
-#: models/permissionmodels.py:29
 msgid "Page and children (immediate)"
 msgstr "Aktuelle und direkt untergeordnete Seite"
 
-#: models/permissionmodels.py:30
 msgid "Page descendants"
 msgstr "Alle untergeordnete Seiten"
 
-#: models/permissionmodels.py:31
 msgid "Page and descendants"
 msgstr "Aktuelle Seite und alle untergeordnete Seiten"
 
-#: models/permissionmodels.py:40
-msgid "group"
-msgstr "Gruppe"
-
-#: models/permissionmodels.py:43
-msgid "can edit"
-msgstr "kann bearbeiten"
-
-#: models/permissionmodels.py:44
-msgid "can add"
-msgstr "Kann hinzufügen"
-
-#: models/permissionmodels.py:45
-msgid "can delete"
-msgstr "Kann löschen"
-
-#: models/permissionmodels.py:46
-msgid "can change advanced settings"
-msgstr "Kann erweiterte Einstellungen ändern"
-
-#: models/permissionmodels.py:47
-msgid "can publish"
-msgstr "kann publizieren"
-
-#: models/permissionmodels.py:48
-msgid "can change permissions"
-msgstr "Kann Berechtigungen ändern"
-
-#: models/permissionmodels.py:48
 msgid "on page level"
 msgstr "Auf Seitenebene"
 
-#: models/permissionmodels.py:49
-msgid "can move"
-msgstr "Kann verschieben"
-
-#: models/permissionmodels.py:50
-msgid "view restricted"
-msgstr "Ansicht eingeschränkt"
-
-#: models/permissionmodels.py:50
 msgid "frontend view restriction"
 msgstr "Frontendansicht eingeschränkt"
 
-#: models/permissionmodels.py:73
-msgid "can recover pages"
-msgstr "Kann Seiten wiederherstellen"
+#| msgid "Please select user or group first."
+msgid "Please select user or group."
+msgstr "Bitte Benutzer oder Gruppe auswählen."
 
-#: models/permissionmodels.py:73
+msgid ""
+"Users can't publish a page without permissions to change the page. Edit "
+"permissions required."
+msgstr "Benutzer können keine Seite veröffentlichen, ohne die Berechtigung zu haben, die Seite zu editieren. Eine Anpassung der Berechtigungen ist nötig."
+
+msgid ""
+"Users can't change page advanced settings without permissions to change the "
+"page. Edit permissions required."
+msgstr "Benutzer können nicht die erweiterten Einstellungen einer Seite ändern, ohne die Berechtigung zu haben, die Seite zu editieren. Eine Anpassung der Berechtigungen ist nötig."
+
+msgid ""
+"Users can't change page permissions without permissions to change the page. "
+"Edit permissions required."
+msgstr "Benutzer können keine Seitenberechtigungen ändern, ohne die Berechtigung zu haben, die Seite zu editieren. Eine Anpassung der Berechtigungen ist nötig."
+
+msgid ""
+"Users can't move a page without permissions to change the page. Edit "
+"permissions required."
+msgstr "Benutzer können eine Seite nicht verschieben, ohne die Berechtigung zu haben, die Seite zu editieren. Eine Anpassung der Berechtigungen ist nötig."
+
 msgid "can recover any deleted page"
 msgstr "Kann alle gelöschten Seiten wiederherstellen"
 
-#: models/permissionmodels.py:74
 msgid "If none selected, user haves granted permissions to all sites."
 msgstr "Falls keine Auswahl erfolgt, hat der Benutzer Berechtigungen auf alle Seiten."
 
-#: models/permissionmodels.py:74
-msgid "sites"
-msgstr "Website"
-
-#: models/permissionmodels.py:79
 msgid "Page global permission"
 msgstr "Globale Seitenberechtigung"
 
-#: models/permissionmodels.py:80
 msgid "Pages global permissions"
 msgstr "Globale Seitenberechtigungen"
 
-#: models/permissionmodels.py:90 templates/admin/cms/page/permissions.html:15
-msgid "Grant on"
-msgstr "Gewähren"
-
-#: models/permissionmodels.py:96
 msgid "Page permission"
 msgstr "Seitenberechtigung"
 
-#: models/permissionmodels.py:111
+msgid ""
+"Add page permission requires also access to children, or descendants, "
+"otherwise added page can't be changed by its creator."
+msgstr "Zum Hinzufügen von Seiten muss der Zugriff auf Unterseiten ebenfalls ermöglicht werden, sonst können neu erstellte Seiten nach dem ersten Speichervorgang nicht mehr bearbeitet werden."
+
 msgid "User (page)"
 msgstr "Benutzer (Seite)"
 
-#: models/permissionmodels.py:112
 msgid "Users (page)"
 msgstr "Benutzer (Seite)"
 
-#: models/permissionmodels.py:122
 msgid "User group (page)"
 msgstr "Benutzergruppe (Seite)"
 
-#: models/permissionmodels.py:123
 msgid "User groups (page)"
 msgstr "Benutzergruppen (Seite)"
 
-#: models/placeholdermodel.py:12
 msgid "slot"
 msgstr "Slot"
 
-#: models/placeholdermodel.py:13 plugins/flash/models.py:9
-#: plugins/googlemap/models.py:36 plugins/video/models.py:13
 msgid "width"
 msgstr "Breite"
 
-#: models/pluginmodel.py:83
-msgid "position"
-msgstr "Position"
-
-#: models/pluginmodel.py:84 models/titlemodels.py:11
-#: plugins/inherit/models.py:11
-msgid "language"
-msgstr "Sprache"
-
-#: models/pluginmodel.py:85
-msgid "plugin_name"
-msgstr "Name des Plugins"
-
-#: models/pluginmodel.py:86 models/titlemodels.py:23
-msgid "creation date"
-msgstr "erstellt am"
-
-#: models/pluginmodel.py:145
 msgid "<Empty>"
 msgstr "<Leer>"
 
-#: models/titlemodels.py:12 models/titlemodels.py:13 models/titlemodels.py:21
-#: plugins/file/models.py:25 plugins/teaser/models.py:9
-#: plugins/twitter/models.py:6 plugins/twitter/models.py:15
-#: templates/admin/cms/page/change_list_tree.html:6
+msgid "The language for the admin interface and toolbar"
+msgstr "Die Sprache für das Administrations Interface und die Toolbar"
+
+msgid "user setting"
+msgstr "Benutzer-Einstellung"
+
+msgid "user settings"
+msgstr "Benutzer-Einstellungen"
+
+msgid "by template"
+msgstr "Bei Vorlage"
+
+msgid "by code"
+msgstr "Bei Code"
+
+msgid "static placeholder name"
+msgstr "Name des statischen Platzhalters"
+
+msgid ""
+"Descriptive name to identify this static placeholder. Not displayed to "
+"users."
+msgstr "Beschreibender Name, um den statischen Platzhalter zu identifizieren. Wird nicht dem Benutzer gezeigt."
+
+msgid "placeholder code"
+msgstr "Platzhalter-Code"
+
+msgid "To render the static placeholder in templates."
+msgstr "Um den statischen Platzhalter im Template zu rendern."
+
+msgid "placeholder content"
+msgstr "Platzhalter-Inhalt"
+
+msgid "creation_method"
+msgstr "erstellungs_methode"
+
+msgid "static placeholder"
+msgstr "Statischer Platzhalter"
+
+msgid "static placeholders"
+msgstr "Statische Platzhalter"
+
+msgid "A static placeholder with the same site and code already exists"
+msgstr "Ein statischer Platzhalter mit der gleichen Website und Code existiert bereits."
+
 msgid "title"
 msgstr "Titel"
 
-#: models/titlemodels.py:13
+msgid "overwrite the title (html title tag)"
+msgstr "Titel überschreiben (HTML Title-Tag)"
+
 msgid "overwrite the title in the menu"
 msgstr "Titel im Menü überschreiben"
 
-#: models/titlemodels.py:14
-msgid "slug"
-msgstr "Slug"
-
-#: models/titlemodels.py:15
-msgid "Path"
-msgstr "Pfad"
-
-#: models/titlemodels.py:16
-msgid "has url overwrite"
-msgstr "Die URL wird überschrieben"
-
-#: models/titlemodels.py:17
-msgid "application"
-msgstr "Applikation"
-
-#: models/titlemodels.py:18
-msgid "redirect"
-msgstr "umleiten"
-
-#: models/titlemodels.py:19 plugins/teaser/models.py:20
 msgid "description"
 msgstr "Beschreibung"
 
-#: models/titlemodels.py:20
-msgid "keywords"
-msgstr "Schlüsselwörter"
+msgid "The text displayed in search engines."
+msgstr "Text, der bei Suchmaschinen dargestellt wird."
 
-#: models/titlemodels.py:21
-msgid "overwrite the title (html title tag)"
-msgstr "Titel überschreiben (HTML Title Tag)"
+msgid "slug"
+msgstr "Slug"
 
-#: plugins/utils.py:124
+msgid "Path"
+msgstr "Pfad"
+
+msgid "has url overwrite"
+msgstr "URL wurde überschrieben"
+
+msgid "redirect"
+msgstr "umleiten"
+
+msgid "is published"
+msgstr "veröffentlicht"
+
+msgid "Advanced options"
+msgstr "Erweiterte Einstellungen"
+
+msgid "Generic"
+msgstr "Generisch"
+
 #, python-format
-msgid "This placeholder already has the maximum number of plugins (%s)."
-msgstr "Dieser Placeholder hat bereits die maximum Anzahl von %s Plugins."
+#| msgid "The %(name)s plugin \"%(obj)s\" was deleted successfully."
+msgid "The %(name)s \"%(obj)s\" was changed successfully."
+msgstr "%(name)s \"%(obj)s\" wurde erfolgreich geändert."
 
-#: plugins/utils.py:134
-#, python-format
-msgid ""
-"This placeholder already has the maximum number (%(limit)s) of allowed "
-"%(plugin_name)s plugins."
-msgstr "Dieser Placeholder hat bereits die maximum Anzahl von %(limit)s %(plugin_name)s Plugins."
+msgid "There are no further settings for this plugin. Please press save."
+msgstr "Es gibt keine weiteren Einstellungen für dieses Plugin. Bitte klicken Sie auf speichern."
 
-#: plugins/file/cms_plugins.py:9
-msgid "File"
-msgstr "Datei"
-
-#: plugins/file/models.py:24 plugins/flash/models.py:8
-msgid "file"
-msgstr "Datei"
-
-#: plugins/file/templates/cms/plugins/file.html:6
-msgid "file missing!"
-msgstr "Datei nicht gefunden!"
-
-#: plugins/flash/cms_plugins.py:9
-msgid "Flash"
-msgstr "Flash"
-
-#: plugins/flash/models.py:8
-msgid "use swf file"
-msgstr ".swf Datei (Flash)"
-
-#: plugins/flash/models.py:10 plugins/googlemap/models.py:38
-#: plugins/video/models.py:14
-msgid "height"
-msgstr "Höhe"
-
-#: plugins/flash/templates/cms/plugins/flash.html:40
-#: plugins/video/templates/cms/plugins/video.html:60
-msgid "Missing flash plugin. Please download the latest Adobe Flash Player: "
-msgstr "Flash Plugin nicht gefunden. Bitte laden Sie sich den neusten Adobe Flash Player herunter."
-
-#: plugins/flash/templates/cms/plugins/flash.html:42
-#: plugins/video/templates/cms/plugins/video.html:62
-msgid "Get Adobe Flash Player"
-msgstr "Adobe Flash Player herunterladen"
-
-#: plugins/googlemap/cms_plugins.py:10
-msgid "Google Map"
-msgstr "Google Map"
-
-#: plugins/googlemap/cms_plugins.py:19
-msgid "Advanced"
-msgstr "Erweitert"
-
-#: plugins/googlemap/forms.py:23
-msgid "Must be a positive integer followed by “px” or “%”."
-msgstr "Muss eine positive Zahl sein auf die \"px\" oder \"%\" folgt."
-
-#: plugins/googlemap/forms.py:26
-msgid "Must be a positive integer followed by “px”."
-msgstr "Muss eine positive Zahl sein auf die \"px\" folgt."
-
-#: plugins/googlemap/models.py:10
-msgid "map title"
-msgstr "Titel der Karte"
-
-#: plugins/googlemap/models.py:13
-msgid "address"
-msgstr "Adresse"
-
-#: plugins/googlemap/models.py:14
-msgid "zip code"
-msgstr "Postleitzahl"
-
-#: plugins/googlemap/models.py:15
-msgid "city"
-msgstr "Stadt"
-
-#: plugins/googlemap/models.py:17
-msgid "additional content"
-msgstr "Zusätzlicher Inhalt"
-
-#: plugins/googlemap/models.py:19
-msgid "Displayed under address in the bubble."
-msgstr "Wir unter der Adresse angezeigt."
-
-#: plugins/googlemap/models.py:21
-msgid "zoom level"
-msgstr "Zoom-Stufe"
-
-#: plugins/googlemap/models.py:24
-msgid "latitude"
-msgstr "Geografische Breite"
-
-#: plugins/googlemap/models.py:26
-msgid "Use latitude & longitude to fine tune the map position."
-msgstr "Benutzen Sie Breiten und Längengrade um die Karte genau zu positionieren."
-
-#: plugins/googlemap/models.py:28
-msgid "longitude"
-msgstr "Geografische Länge"
-
-#: plugins/googlemap/models.py:31
-msgid "route planer title"
-msgstr "Titel des Routenplaners"
-
-#: plugins/googlemap/models.py:33
-msgid "Calculate your fastest way to here"
-msgstr "Berechne den schnellsten Weg hierher"
-
-#: plugins/googlemap/models.py:34
-msgid "route planer"
-msgstr "Routenplaner"
-
-#: plugins/googlemap/models.py:37
-msgid "Plugin width (in pixels or percent)."
-msgstr "Plugin Breite (in Pixel oder Prozent)"
-
-#: plugins/googlemap/models.py:39
-msgid "Plugin height (in pixels)."
-msgstr "Plugin Höhe (in Pixel)"
-
-#: plugins/googlemap/models.py:47
-msgid "Map"
-msgstr "Karte"
-
-#: plugins/googlemap/templates/cms/plugins/googlemap.html:72
-msgid "Your address: "
-msgstr "Deine Adresse:"
-
-#: plugins/googlemap/templates/cms/plugins/googlemap.html:74
-msgid "Calculate route"
-msgstr "Route berechnen"
-
-#: plugins/inherit/cms_plugins.py:17
-msgid "Inherit Plugins from Page"
-msgstr "Erbt Plugins von einer Seite"
-
-#: plugins/inherit/forms.py:23
-msgid "Language or Page must be filled out"
-msgstr "Sprache oder Seite müssen ausgefüllt sein."
-
-#: plugins/inherit/models.py:10
-msgid ""
-"Choose a page to include its plugins into this placeholder, empty will "
-"choose current page"
-msgstr "Wählen Sie eine Seite von der Sie die Plugins erben wollen. Leer wählt die momentane Seite."
-
-#: plugins/inherit/models.py:11
-msgid "Optional: the language of the plugins you want"
-msgstr "Optional: Die Sprache der Plugins dies Sie wollen"
-
-#: plugins/link/cms_plugins.py:12
-msgid "Link"
-msgstr "Link"
-
-#: plugins/link/models.py:10 plugins/snippet/models.py:12
-msgid "name"
-msgstr "Name"
-
-#: plugins/link/models.py:11 plugins/picture/models.py:21
-#: plugins/teaser/models.py:19
-msgid "link"
-msgstr "Link"
-
-#: plugins/link/models.py:12
-msgid "A link to a page has priority over a text link."
-msgstr "Ein Link auf eine Seite hat Priorität vor einem Textlink"
-
-#: plugins/link/models.py:13
-msgid "mailto"
-msgstr "E-Mail-Adresse"
-
-#: plugins/link/models.py:13
-msgid "An email adress has priority over a text link."
-msgstr "Eine E-Mail-Adresse hat Priorität vor einem Textlink."
-
-#: plugins/link/models.py:14
-msgid "target"
-msgstr "Ziel"
-
-#: plugins/link/models.py:15
-msgid "same window"
-msgstr "Gleiches Fenster"
-
-#: plugins/link/models.py:16
-msgid "new window"
-msgstr "Neues Fenster"
-
-#: plugins/link/models.py:17
-msgid "parent window"
-msgstr "Übergeordnetes Fenster"
-
-#: plugins/link/models.py:18
-msgid "topmost frame"
-msgstr "Oberstes Fenster"
-
-#: plugins/picture/cms_plugins.py:9
-msgid "Picture"
-msgstr "Bild"
-
-#: plugins/picture/models.py:15
-msgid "left"
-msgstr "links"
-
-#: plugins/picture/models.py:16
-msgid "right"
-msgstr "rechts"
-
-#: plugins/picture/models.py:17
-msgid "center"
-msgstr "mittig"
-
-#: plugins/picture/models.py:20 plugins/teaser/models.py:10
-#: plugins/video/models.py:11
-msgid "image"
-msgstr "Bild"
-
-#: plugins/picture/models.py:22
-msgid "If present, clicking on image will take user to link."
-msgstr "Falls vorhanden, führt den Benutzer ein Klick auf das Bild zum Link."
-
-#: plugins/picture/models.py:24
-msgid ""
-"If present, clicking on image will take user         to specified page."
-msgstr "Falls vorhanden, führt den Benutzer ein Klick auf das Bild zur angegebenen Seite."
-
-#: plugins/picture/models.py:26
-msgid "alternate text"
-msgstr "Alternativer Text."
-
-#: plugins/picture/models.py:27
-msgid ""
-"Specifies an alternate text for an image, if         the image cannot be "
-"displayed.<br />Is also used by search engines to         classify the "
-"image."
-msgstr "Alternativ Text für das Bild, wenn das Bild nicht angezeigt werden kann.<br />Dieser Text wird auch von Suchmaschinen verwendet um das Bild zu klassifizieren."
-
-#: plugins/picture/models.py:30
-msgid "long description"
-msgstr "Lange Beschreibung"
-
-#: plugins/picture/models.py:31
-msgid ""
-"When user hovers above picture,        this text will appear in a popup."
-msgstr "Wenn der Benutzer mit der Maus über as Bild fährt, dann erscheint dieser Text in einem Popup."
-
-#: plugins/picture/models.py:33
-msgid "side"
-msgstr "Seite"
-
-#: plugins/picture/models.py:34
-msgid "Move image left, right or center."
-msgstr "Bild nach links, rechts oder in die Mitte verschieben."
-
-#: plugins/picture/models.py:51
-msgid "You can enter a Link or a Page, but not both."
-msgstr "Sie können einen Link oder eine Seite angeben, aber nicht beides."
-
-#: plugins/snippet/cms_plugins.py:12 plugins/snippet/models.py:24
-#: plugins/snippet/models.py:32
-msgid "Snippet"
-msgstr "Snippet"
-
-#: plugins/snippet/cms_plugins.py:30
-#, python-format
-msgid "Template %(template)s does not exist."
-msgstr "Die Vorlage %(template)s existiert nicht."
-
-#: plugins/snippet/models.py:13
-msgid "HTML"
-msgstr "HTML"
-
-#: plugins/snippet/models.py:15
-msgid ""
-"Enter a template (i.e. \"snippets/plugin_xy.html\") which will be rendered. "
-msgstr "Fügen sie eine Vorlage ein, welche dargestellt werden soll (z.B. \"snippets/plugin_xy.html\")."
-
-#: plugins/snippet/models.py:25
-msgid "Snippets"
-msgstr "Snippet"
-
-#: plugins/teaser/cms_plugins.py:8
-msgid "Teaser"
-msgstr "Teaser"
-
-#: plugins/teaser/models.py:14
-msgid "If present image will be clickable"
-msgstr "Füllen Sie dieses Feld aus, um aus dem Bild einen Link zu machen."
-
-#: plugins/teaser/models.py:19
-msgid "If present image will be clickable."
-msgstr "Füllen Sie dieses Feld aus, um aus dem Bild einen Link zu machen."
-
-#: plugins/teaser/templates/cms/plugins/teaser.html:11
-#: templates/cms/toolbar/toolbar.html:68
-msgid "more"
-msgstr "mehr"
-
-#: plugins/text/cms_plugins.py:15
-msgid "Text"
-msgstr "Text"
-
-#: plugins/text/models.py:14
-msgid "body"
-msgstr "Inhalt"
-
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:30
-msgid "Plugins"
-msgstr "Plugins"
-
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:38
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:106
-#: plugins/text/templates/cms/plugins/widgets/wymeditor.html:69
-msgid "Please select a plugin type."
-msgstr "Bitte wählen Sie einen Plugin-Typ"
-
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:54
-#: plugins/text/templates/cms/plugins/widgets/wymeditor.html:112
-msgid "Edit selected plugin"
-msgstr "Ausgewähltes Plugin bearbeiten"
-
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:58
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:124
-#: plugins/text/templates/cms/plugins/widgets/wymeditor.html:87
-msgid "Text editor does not support editing objects."
-msgstr "Dieser Texteditor unterstützt das Bearbeiten von Plugins nicht."
-
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:63
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:129
-#: plugins/text/templates/cms/plugins/widgets/wymeditor.html:92
-msgid "No object selected."
-msgstr "Kein Plugin ausgewählt"
-
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:112
-#: plugins/text/templates/cms/plugins/widgets/wymeditor.html:75
-msgid "Text editor does not support inserting objects."
-msgstr "Dieser Texteditor unterstützt das Einfügen von Plugins nicht."
-
-#: plugins/text/templates/cms/plugins/widgets/tinymce.html:133
-#: plugins/text/templates/cms/plugins/widgets/wymeditor.html:96
-msgid "Not a plugin object"
-msgstr "Kein Plugin-Objekt"
-
-#: plugins/text/templates/cms/plugins/widgets/wymeditor.html:108
-#: templates/admin/cms/page/widgets/installed_plugins_inc.html:4
-msgid "Available Plugins"
-msgstr "Vorhandene Plugins"
-
-#: plugins/text/templates/cms/plugins/widgets/wymeditor.html:111
-msgid "Insert plugin"
-msgstr "Plugin einfügen"
-
-#: plugins/twitter/cms_plugins.py:10
-#: plugins/twitter/templates/cms/plugins/twitter_recent_entries.html:30
-msgid "Twitter"
-msgstr "Twitter"
-
-#: plugins/twitter/cms_plugins.py:23
-msgid "Twitter Search"
-msgstr "Twitter Suche"
-
-#: plugins/twitter/models.py:7
-msgid "twitter user"
-msgstr "Twitter-Benutzer"
-
-#: plugins/twitter/models.py:8 plugins/twitter/models.py:17
-msgid "count"
-msgstr "Anzahl"
-
-#: plugins/twitter/models.py:8 plugins/twitter/models.py:17
-msgid "Number of entries to display"
-msgstr "Anzahl Einträge die dargestellt werden"
-
-#: plugins/twitter/models.py:9
-msgid "link hint"
-msgstr "Link Tipp"
-
-#: plugins/twitter/models.py:9
-msgid "If given, the hint is displayed as link to your Twitter profile."
-msgstr "Wenn ausgefüllt, wird der Tipp als Link zu Ihrem Twitter-Profil dargestellt."
-
-#: plugins/twitter/models.py:16
-msgid "query"
-msgstr "Abfrage"
-
-#: plugins/twitter/models.py:16
-msgid ""
-"Example: \"brains AND zombies AND from:umbrella AND to:nemesis\": tweets "
-"from the user \"umbrella\" to the user \"nemesis\" that contain the words "
-"\"brains\" and \"zombies\""
-msgstr "Beispiel: \"Gehirne AND Zombies AND from:umbrella AND to:nemesis\": Tweets vom Benutzer \"umbrella\" an den Benutzer \"nemesis\" mit den Worten \"Gehirne\" und \"Zombies\"."
-
-#: plugins/twitter/templates/cms/plugins/twitter_recent_entries.html:14
-msgid "we said,"
-msgstr "wir sagten,"
-
-#: plugins/twitter/templates/cms/plugins/twitter_recent_entries.html:15
-msgid "we"
-msgstr "wir"
-
-#: plugins/twitter/templates/cms/plugins/twitter_recent_entries.html:16
-msgid "we were"
-msgstr "wir waren"
-
-#: plugins/twitter/templates/cms/plugins/twitter_recent_entries.html:17
-msgid "we replied to"
-msgstr "wir haben geantwortet"
-
-#: plugins/twitter/templates/cms/plugins/twitter_recent_entries.html:18
-msgid "we were checking out"
-msgstr "wir sahen"
-
-#: plugins/twitter/templates/cms/plugins/twitter_recent_entries.html:19
-msgid "loading tweets..."
-msgstr "Lade Tweets..."
-
-#: plugins/video/cms_plugins.py:10
-msgid "Video"
-msgstr "Video"
-
-#: plugins/video/cms_plugins.py:42
-msgid "Color Settings"
-msgstr "Farb-Einstellungen"
-
-#: plugins/video/models.py:9
-msgid "movie file"
-msgstr "Verschiebung beantragen"
-
-#: plugins/video/models.py:9
-msgid "use .flv file or h264 encoded video file"
-msgstr "Benutzen sie .flv oder H264 enkodierte Video Dateien."
-
-#: plugins/video/models.py:10
-msgid "movie url"
-msgstr "Verschiebung beantragen"
-
-#: plugins/video/models.py:10
-msgid ""
-"vimeo or youtube video url. Example: "
-"http://www.youtube.com/watch?v=-iJ7bs4mTUY"
-msgstr "Vimeo oder Youtube video URL. Beispiel: http://www.youtube.com/watch?v=-iJ7bs4mTUY"
-
-#: plugins/video/models.py:11
-msgid "preview image file"
-msgstr "Bild Datei Vorschau"
-
-#: plugins/video/models.py:16
-msgid "auto play"
-msgstr "automatisch starten"
-
-#: plugins/video/models.py:17
-msgid "auto hide"
-msgstr "automatisch ausblenden"
-
-#: plugins/video/models.py:18
-msgid "fullscreen"
-msgstr "Vollbild"
-
-#: plugins/video/models.py:19
-msgid "loop"
-msgstr "wiederholen"
-
-#: plugins/video/models.py:22
-msgid "background color"
-msgstr "Hintergrundfarbe"
-
-#: plugins/video/models.py:22 plugins/video/models.py:23
-#: plugins/video/models.py:24 plugins/video/models.py:25
-#: plugins/video/models.py:26 plugins/video/models.py:27
-#: plugins/video/models.py:28 plugins/video/models.py:29
-msgid "Hexadecimal, eg ff00cc"
-msgstr "Hexadezimal, z.B. ff00cc"
-
-#: plugins/video/models.py:23
-msgid "text color"
-msgstr "Text Farbe"
-
-#: plugins/video/models.py:24
-msgid "seekbar color"
-msgstr "Suchbar Farbe"
-
-#: plugins/video/models.py:25
-msgid "seekbar bg color"
-msgstr "Suchbar Hintergrundfarbe"
-
-#: plugins/video/models.py:26
-msgid "loadingbar color"
-msgstr "Ladebalken Farbe"
-
-#: plugins/video/models.py:27
-msgid "button out color"
-msgstr "Schalter Mousout Farbe"
-
-#: plugins/video/models.py:28
-msgid "button over color"
-msgstr "Schalter Mousover Farbe"
-
-#: plugins/video/models.py:29
-msgid "button highlight color"
-msgstr "Schalter Highlight Farbe"
-
-#: templates/admin/page_submit_line.html:3
-#: templates/admin/cms/page/change_form.html:161
-#: templates/admin/cms/page/plugin_change_form.html:119
 msgid "Save"
 msgstr "Speichern"
 
-#: templates/admin/page_submit_line.html:7
-#, python-format
-msgid "Delete %(language)s translation"
-msgstr "%(language)s Übersetzung löschen"
-
-#: templates/admin/page_submit_line.html:11
-msgid "Save as new"
-msgstr "Als neu speichern"
-
-#: templates/admin/page_submit_line.html:12
-msgid "Save and add another"
-msgstr "Speichern und neu hinzufügen"
-
-#: templates/admin/page_submit_line.html:13
-#: templates/admin/cms/page/change_form.html:162
-msgid "Save and continue editing"
-msgstr "Speichern und weiter bearbeiten"
-
-#: templates/admin/cms/mail/approvement_required.html:5
-#: templates/admin/cms/mail/approvement_required.txt:5
-#, python-format
-msgid ""
-"Page <a href=\"%(admin_url)s\">%(page)s</a> may require approvement by you."
-msgstr "Die Seite <a href=\"%(admin_url)s\">%(page)s</a> benötigt Ihre Freigabe."
-
-#: templates/admin/cms/mail/approvement_required.html:8
-#: templates/admin/cms/mail/approvement_required.txt:7
-msgid "Last changes"
-msgstr "Letzte Änderungen"
-
-#: templates/admin/cms/mail/base.html:55
 #, python-format
 msgid "Log in to administration <a href=\"%(login_url)s\">here</a>."
 msgstr "Sie können sich <a href=\"%(login_url)s\">hier</a> in die Administration einloggen."
 
-#: templates/admin/cms/mail/base.txt:8
 #, python-format
 msgid "Login url: %(login_url)s"
 msgstr "Login URL: %(login_url)s"
 
-#: templates/admin/cms/mail/page_user_change.html:7
-#: templates/admin/cms/mail/page_user_change.txt:5
 msgid "Username:"
 msgstr "Benutzername:"
 
-#: templates/admin/cms/mail/page_user_change.html:11
-#: templates/admin/cms/mail/page_user_change.txt:6
 msgid "Password:"
 msgstr "Passwort:"
 
-#: templates/admin/cms/page/change_form.html:4
-#: templates/admin/cms/page/plugin_forms_history.html:3
-#: templates/admin/cms/page/plugin_forms_ok.html:4
+#| msgid "Add Page"
+msgid "Add a page"
+msgstr ""
+
 msgid "Change a page"
 msgstr "Seite bearbeiten"
 
-#: templates/admin/cms/page/change_form.html:70
-#: templates/admin/cms/page/change_list.html:8
-#: templates/admin/cms/page/plugin_change_form.html:73
-#: templates/admin/cms/page/recover_form.html:14
-#: templates/admin/cms/page/revision_form.html:6
 msgid "Home"
 msgstr "Start"
 
-#: templates/admin/cms/page/change_form.html:83
-msgid "Publish draft"
-msgstr "Veröffentlichen"
-
-#: templates/admin/cms/page/change_form.html:84
-msgid "Preview draft"
-msgstr "Vorschau"
-
-#: templates/admin/cms/page/change_form.html:86
-msgid "Revert to public"
-msgstr "Zurücksetzen zur öffentlichen Version"
-
-#: templates/admin/cms/page/change_form.html:87
-#: templates/admin/cms/page/revision_form.html:10
-msgid "History"
-msgstr "Verlauf"
-
-#: templates/admin/cms/page/change_form.html:88
 msgid "View on site"
 msgstr "Im Web anzeigen"
 
-#: templates/admin/cms/page/change_form.html:118
-#: templates/admin/cms/page/plugin_change_form.html:90
 msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
 msgstr[0] "Bitte korrigieren Sie unterhalb den Fehler."
 msgstr[1] "Bitte korrigieren Sie unterhalb alle Fehler."
 
-#: templates/admin/cms/page/change_form.html:138
 msgid "All permissions"
 msgstr "Alle Berechtigungen"
 
-#: templates/admin/cms/page/change_form.html:139
-#: templates/admin/cms/page/change_form.html:150
-#: templates/admin/cms/page/loading.html:2
 msgid "Loading..."
 msgstr "Wird geladen…"
 
-#: templates/admin/cms/page/change_form.html:149
-msgid "Page states"
-msgstr "Seitenstatus"
+msgid "Save and continue editing"
+msgstr "Speichern und weiter bearbeiten"
 
-#: templates/admin/cms/page/change_list.html:3
-msgid "List of pages"
-msgstr "Liste der Seiten"
-
-#: templates/admin/cms/page/change_list.html:59
-msgid "Successfully moved"
-msgstr "Erfolgreich verschoben"
-
-#: templates/admin/cms/page/change_list.html:68
-msgid "An error occured. Please reload the page"
-msgstr "Ein Fehler ist aufgetreten. Bitte laden Sie die Seite neu."
-
-#: templates/admin/cms/page/change_list.html:89
-#, python-format
-msgid "Recover deleted %(name)s"
-msgstr "%(name)s wiederherstellen"
-
-#: templates/admin/cms/page/change_list.html:92
-#, python-format
-msgid "Add %(name)s"
-msgstr "%(name)s hinzufügen"
-
-#: templates/admin/cms/page/change_list.html:104
-msgid "Pages on:"
-msgstr "Seiten auf: "
-
-#: templates/admin/cms/page/change_list.html:121
-msgid "Filter:"
-msgstr "Filter:"
-
-#: templates/admin/cms/page/change_list.html:121
-msgid "on"
-msgstr "ein"
-
-#: templates/admin/cms/page/change_list.html:121
-msgid "off"
-msgstr "aus"
-
-#: templates/admin/cms/page/change_list.html:123
-msgid "Filter"
-msgstr "Filter"
-
-#: templates/admin/cms/page/change_list_tree.html:8
-msgid "actions"
-msgstr "Aktionen"
-
-#: templates/admin/cms/page/change_list_tree.html:10
-msgid "published"
-msgstr "Veröffentlicht"
-
-#: templates/admin/cms/page/change_list_tree.html:11
-msgid "start"
-msgstr "Start"
-
-#: templates/admin/cms/page/change_list_tree.html:12
-msgid "end"
-msgstr "Ende"
-
-#: templates/admin/cms/page/change_list_tree.html:13
-msgid "restricted"
-msgstr "Eingeschränkt"
-
-#: templates/admin/cms/page/change_list_tree.html:14
-msgid "last changes"
-msgstr "Letzte Änderungen"
-
-#: templates/admin/cms/page/menu_item.html:5
-msgid "select this page"
-msgstr "Diese Seite auswählen"
-
-#: templates/admin/cms/page/menu_item.html:5
-#: templates/admin/cms/page/menu_item.html:6
-msgid "edit this page"
-msgstr "Diese Seite bearbeiten"
-
-#: templates/admin/cms/page/menu_item.html:6
-#: templates/cms/toolbar/toolbar.html:63
-msgid "edit"
-msgstr "bearbeiten"
-
-#: templates/admin/cms/page/menu_item.html:16
-msgid "insert above"
-msgstr "Darüber einfügen"
-
-#: templates/admin/cms/page/menu_item.html:17
-msgid "insert below"
-msgstr "Darunter einfügen"
-
-#: templates/admin/cms/page/menu_item.html:19
-msgid "insert inside"
-msgstr "Als Unterseite einfügen"
-
-#: templates/admin/cms/page/menu_item.html:23
-msgid "softroot"
-msgstr "Softroot"
-
-#: templates/admin/cms/page/menu_item.html:23
-msgid "home"
-msgstr "Start"
-
-#: templates/admin/cms/page/menu_item.html:26
-#, python-format
-msgid "Edit this page in %(language)s "
-msgstr "Bearbeiten Sie diese Seite in %(language)s "
-
-#: templates/admin/cms/page/menu_item.html:33
-msgid "Cut"
-msgstr "Ausschneiden"
-
-#: templates/admin/cms/page/menu_item.html:33
-msgid "cut"
-msgstr "ausschneiden"
-
-#: templates/admin/cms/page/menu_item.html:34
-msgid "Copy"
-msgstr "Kopieren"
-
-#: templates/admin/cms/page/menu_item.html:34
-msgid "copy"
-msgstr "kopieren"
-
-#: templates/admin/cms/page/menu_item.html:37
-#: templates/admin/cms/page/menu_item.html:41
-msgid "Add Child"
-msgstr "Unterseite hinzufügen"
-
-#: templates/admin/cms/page/menu_item.html:37
-#: templates/admin/cms/page/menu_item.html:41
-msgid "add"
-msgstr "Hinzufügen"
-
-#: templates/admin/cms/page/menu_item.html:44
-#: templates/cms/toolbar/toolbar.html:66
-msgid "delete"
-msgstr "Löschen"
-
-#: templates/admin/cms/page/menu_item.html:57
-msgid "Unpublish"
-msgstr "Veröffentlichung aufheben"
-
-#: templates/admin/cms/page/menu_item.html:62
-msgid "View on page"
-msgstr "Im Web anzeigen"
-
-#: templates/admin/cms/page/menu_item.html:62
-msgid "view"
-msgstr "Anzeigen"
-
-#: templates/admin/cms/page/moderation_messages.html:4
-msgid "Action"
-msgstr "Aktion"
-
-#: templates/admin/cms/page/moderation_messages.html:5
-msgid "Created"
-msgstr "Erstellt"
-
-#: templates/admin/cms/page/moderation_messages.html:6
-#: templates/admin/cms/page/permissions.html:6
 msgid "User"
 msgstr "Benutzer"
 
-#: templates/admin/cms/page/moderation_messages.html:7
-msgid "Message"
-msgstr "Nachricht"
-
-#: templates/admin/cms/page/permissions.html:7
 msgid "Group"
 msgstr "Gruppe"
 
-#: templates/admin/cms/page/permissions.html:8
 msgid "Can edit"
 msgstr "Kann bearbeiten"
 
-#: templates/admin/cms/page/permissions.html:9
 msgid "Can add"
 msgstr "Kann hinzufügen"
 
-#: templates/admin/cms/page/permissions.html:10
 msgid "Can delete"
 msgstr "Kann löschen"
 
-#: templates/admin/cms/page/permissions.html:11
 msgid "Can publish"
 msgstr "Kann veröffentlichen"
 
-#: templates/admin/cms/page/permissions.html:12
 msgid "Can change permissions"
 msgstr "Kann Berechtigungen ändern"
 
-#: templates/admin/cms/page/permissions.html:13
 msgid "Can move"
 msgstr "Kann verschieben"
 
-#: templates/admin/cms/page/permissions.html:14
 msgid "Can view"
 msgstr "Kann sehen"
 
-#: templates/admin/cms/page/permissions.html:21
-#: templates/admin/cms/page/permissions.html:22
 msgid "(global)"
 msgstr "(global)"
 
-#: templates/admin/cms/page/permissions.html:26
 msgid "(current)"
 msgstr "(aktuell)"
 
-#: templates/admin/cms/page/permissions.html:43
 msgid "All"
 msgstr "Alle"
 
-#: templates/admin/cms/page/permissions.html:51
 msgid "Page doesn't inherit any permissions."
 msgstr "Seite erbt keine Berechtigungen."
 
-#: templates/admin/cms/page/plugin_change_form.html:120
-#: templates/cms/toolbar/toolbar.html:29
-msgid "Cancel"
-msgstr "Abbrechen"
+msgid "Edit model"
+msgstr "Modell editieren"
 
-#: templates/admin/cms/page/plugin_forms_history.html:9
-msgid "An old revision of a plugin can not be saved!"
-msgstr "Eine alte Version eines Plugins kann nicht gespeichert werden."
+msgid "Save as new"
+msgstr "Als \"neu\" speichern"
 
-#: templates/admin/cms/page/plugin_forms_ok.html:26
-msgid "Your changes to this plugin have not been saved."
-msgstr "Ihre Änderungen an diesem Plugin konnten nicht gespeichert werden."
+msgid "Save and add another"
+msgstr "Speichern und neu hinzufügen"
 
-#: templates/admin/cms/page/plugin_forms_ok.html:26
-msgid "Plugin saved successfully."
-msgstr "Das Plugin wurde erfolgreich gespeichert."
+msgid "Basic Settings"
+msgstr "Grundeinstellungen"
 
-#: templates/admin/cms/page/recover_form.html:17
+msgid "Copy"
+msgstr "Kopieren"
+
+msgid "Cut"
+msgstr "Ausschneiden"
+
+msgid "Paste"
+msgstr "Einfügen"
+
+msgid "is restricted"
+msgstr "Ist eingeschränkt"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "last change by"
+msgstr "Letzte Änderungen von"
+
+msgid "meta"
+msgstr "Meta"
+
+msgid "List of pages"
+msgstr "Liste der Seiten"
+
+msgid "Search"
+msgstr "Suche"
+
+#| msgid "Page Title"
+msgid "Page Tree"
+msgstr "Seitenbaum"
+
+msgid "Reset filter"
+msgstr "Filter zurücksetzen"
+
 #, python-format
-msgid "Recover deleted %(verbose_name)s"
-msgstr "Gelöschte %(verbose_name)s wiederherstellen"
+msgid ""
+"\n"
+"                                                Restore deleted %(name)s\n"
+"                                            "
+msgstr "\nGelöschte %(name)s wiederherstellen"
 
-#: templates/admin/cms/page/recover_form.html:24
-msgid "Press the save button below to recover this version of the object."
-msgstr "Drücken Sie auf Speichern, um diese Version wiederherzustellen."
-
-#: templates/admin/cms/page/revision_form.html:11
 #, python-format
-msgid "Revert %(verbose_name)s"
-msgstr "%(verbose_name)s wiederherstellen"
+msgid ""
+"\n"
+"                                New %(name)s\n"
+"                            "
+msgstr "\nNeue %(name)s"
 
-#: templates/admin/cms/page/revision_form.html:24
-msgid "Press the save button below to revert to this version of the object."
-msgstr "Drücken sie auf Speichern, um diese Version wiederherzustellen."
+#| msgid "in navigation"
+msgid "Main Navigation"
+msgstr "Hauptnavigation"
 
-#: templates/admin/cms/page/dialog/copy.html:4
+#| msgid "Actions"
+msgid "Options"
+msgstr "Optionen"
+
+msgid "Successfully moved"
+msgstr "Erfolgreich verschoben"
+
+msgid "Changes within the tree might require a refresh."
+msgstr "Änderunge im Baum brauchen vielleicht ein neu laden der Seite."
+
+msgid "Error:"
+msgstr "Fehler:"
+
+msgid ""
+"This page cannot be copied because an application is attached to it. See the"
+" Page's Advanced settings to manage apphooks."
+msgstr "Diese Seite kann nicht kopiert werden da eine Applikation daran gebunden ist. Sie können \"apphooks\" in den erweiterten Einstellungen verwalten."
+
+msgid "Are you sure you want to § this page?"
+msgstr "Sind Sie sicher dass diese Seite § wollen?"
+
+msgid "Reload"
+msgstr "Neu laden"
+
+#| msgid "New Page"
+msgid "New node"
+msgstr "Neue Seite"
+
+msgid "nodes"
+msgstr "seiten"
+
+msgid "View"
+msgstr "Ansehen"
+
+msgid "Menu"
+msgstr "Menu"
+
+#, python-format
+#| msgid ""
+#| "                  JavaScript seems to be disabled so please\n"
+#| "                  <a href=\"%(admin_add_page)s\" class=\"js-welcome-\">add a page</a> manually.\n"
+#| "              "
+msgid ""
+"\n"
+"                            <em>There is no page around yet.</em>\n"
+"                            <br>\n"
+"                            <a href=\"%(add_url)s\" class=\"addlink\">Add page</a> now.\n"
+"                        "
+msgstr "\n<em>Es ist noch keine Seite vorhanden.</em>\n<br>\n<a href=\"%(add_url)s\" class=\"addlink\">Seite hinzufügen</a>."
+
 msgid "Copy options"
 msgstr "Kopier-Optionen"
 
-#: templates/admin/cms/page/dialog/copy.html:6
 msgid "Choose copy options"
 msgstr "Wählen Sie Kopier-Optionen"
 
-#: templates/admin/cms/page/widgets/installed_plugins_inc.html:7
-msgid "Generic"
-msgstr "Generisch"
+msgid "Close"
+msgstr "Schließen"
 
-#: templates/admin/cms/page/widgets/installed_plugins_inc.html:15
-msgid "Add Plugin"
+msgid "Legend"
+msgstr "Legende"
+
+#| msgid "published"
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#| msgid "Change"
+msgid "Changed"
+msgstr "Geändert"
+
+#| msgid "unpublished"
+msgid "Unpublished"
+msgstr "Nicht publiziert"
+
+#| msgid "in menu"
+msgid "In menu"
+msgstr "Im Menü"
+
+#| msgid "not in menu"
+msgid "Not in menu"
+msgstr "Nicht im Menü"
+
+#| msgid "New page"
+msgid "View page"
+msgstr "Im Web anzeigen"
+
+#| msgid "softroot"
+msgid "Softroot"
+msgstr "Softroot"
+
+msgid "Apphook"
+msgstr "Apphook"
+
+#, python-format
+msgid "Application: %(apphook)s"
+msgstr "Applikation: %(apphook)s"
+
+#, python-format
+#| msgid "Edit this page in %(language)s "
+msgid "Preview this page in %(language)s "
+msgstr "Betrachten Sie diese Seite in %(language)s"
+
+msgid "Preview"
+msgstr "Vorschau"
+
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+msgid "Unpublish"
+msgstr "Veröffentlichung aufheben"
+
+msgid "Configure"
+msgstr "Konfigurieren"
+
+msgid "in menu"
+msgstr "Im Menu"
+
+msgid "not in menu"
+msgstr "Nicht im Menu"
+
+#| msgid "Page settings (SHIFT-click for advanced settings)"
+msgid "Page settings (SHIFT click for advanced settings)"
+msgstr "Seiten-Einstellungen (Shift-Klick für erweiterte Einstellungen)"
+
+msgid "Clipboard"
+msgstr "Zwischenablage"
+
+msgid "Add plugin"
 msgstr "Plugin hinzufügen"
 
-#: templates/admin/cms/page/widgets/installed_plugins_inc.html:18
-msgid "From Language"
-msgstr "Von Sprache"
+msgid "Copy all"
+msgstr "Alle kopieren"
 
-#: templates/admin/cms/page/widgets/installed_plugins_inc.html:25
-msgid "Copy Plugins"
-msgstr "Plugins kopieren"
+msgid "Copy from"
+msgstr "Kopieren von"
 
-#: templates/admin/cms/page/widgets/plugin_editor.html:12
-msgid "You must save the page first to add plugins."
-msgstr "Sie müssen die Seite zuerst speichern, um Plugins hinzufügen zu können."
+msgid "Empty all"
+msgstr "Alle entfernen"
 
-#: templates/admin/cms/page/widgets/plugin_editor.html:15
-msgid "No Plugin selected. Selected one on the left side"
-msgstr "Kein Plugin ausgewählt. Wählen Sie eins auf der linken Seite aus."
+msgid "Filter plugins..."
+msgstr "Plugins filtern..."
 
-#: templates/admin/cms/page/widgets/plugin_editor.html:17
-msgid "No Plugins present. Add a plugin to this placeholder-slot."
-msgstr "Keine Plugins vorhanden. Fügen Sie ein Plugin in diesen Platzhalter ein."
+msgid "This is a static placeholder"
+msgstr "Dies ist ein statischer Platzhalter"
 
-#: templates/cms/toolbar/placeholder.html:33
+msgid "Expand all"
+msgstr "Alle ausklappen"
+
+msgid "Collapse all"
+msgstr "Alle einklappen"
+
+msgid "Edit"
+msgstr "Editieren"
+
+msgid "You cannot add plugins to this plugin."
+msgstr "Zu diesem Plugin können keine Plugins hinzugefügt werden"
+
+msgid "This plugin cannot be moved or edited outside of its parent"
+msgstr "Dieses Plugin kann nicht ausserhalb des Parents-Plugins verschoben oder editiert werden"
+
+msgid "Clipboard is empty."
+msgstr "Zwischenablage ist leer."
+
+msgid "This plugin does not allow plugins of this type as nested plugins."
+msgstr "Dieses Plugin erlaubt keine weiteren Plugins dieses Typ's innerhalb sich selbst."
+
+msgid "This plugin cannot have nested plugins."
+msgstr "Dieses Plugin erlaubt keine weiteren Plugins innerhalb sich selbst."
+
 msgid "Available plugins"
 msgstr "Verfügbare Plugins"
 
-#: templates/cms/toolbar/toolbar.html:27
-msgid "The selected element can not be moved to the desired location."
-msgstr "Das ausgewählte Element kann nicht an die gewünschte Position verschoben werden."
+#| msgid "View published"
+msgid "View published page"
+msgstr "Veröffentlichte Seite anzeigen"
 
-#: templates/cms/toolbar/toolbar.html:28
-msgid "Are you sure you want to delete this plugin?"
-msgstr "Sind Sie sicher dass Sie dieses Plugin löschen wollen?"
+#| msgid "Edit this Page"
+msgid "Edit page"
+msgstr "Seite bearbeiten"
 
-#: templates/cms/toolbar/toolbar.html:64
-msgid "up"
-msgstr "rauf"
-
-#: templates/cms/toolbar/toolbar.html:65
-msgid "down"
-msgstr "runter"
-
-#: templates/cms/toolbar/toolbar.html:70
-msgid "Add child plugin"
-msgstr "Sub-Plugin hinzufügen"
-
-#: templates/cms/toolbar/toolbar.html:73
-msgid "Move to placeholder"
-msgstr "In einen Platzhalter verschieben."
-
-#: templates/cms/toolbar/items/login.html:5
-msgid "Username"
-msgstr "Benutzername"
-
-#: templates/cms/toolbar/items/login.html:10
-#: templates/cms/toolbar/items/login.html:12
 msgid "Login"
 msgstr "Anmelden"
 
-#: templates/cms/toolbar/items/switcher.html:4
-msgid "Switch on/off"
-msgstr "Ein-/Ausschalten"
+msgid "Add plugin to"
+msgstr "Plugin hinzufügen zu"
 
-#: templatetags/cms_admin.py:129 templatetags/cms_admin.py:136
+msgid "Double-click to edit"
+msgstr "Doppelklicken zum Editieren"
+
+msgid "Tap to edit"
+msgstr "Antippen zum bearbeiten"
+
+msgid "More"
+msgstr "Mehr"
+
+msgid "Toggle toolbar"
+msgstr "Toolbar umschalten"
+
+msgid "Click to go back"
+msgstr "Seite zurück gehen"
+
+msgid "Click to go forward"
+msgstr "Seite vorwärts gehen"
+
+msgid "Minimize"
+msgstr "Minimieren"
+
+msgid "Maximize"
+msgstr "Maximieren"
+
+msgid "Drop a plugin here"
+msgstr "Plugin hier fallen lassen"
+
+msgid "This page has no preview!"
+msgstr "Diese Seite hat keine Vorschau!"
+
+msgid "It is being redirected to:"
+msgstr "Wird weitergeleitet nach:"
+
 #, python-format
-msgid "<span title=\"Restrictions: %(title)s\">%(icon)s</span>"
-msgstr "<span title=\"Einschränkung: %(title)s\">%(icon)s</span>"
+#| msgid "Development version using django CMS %(cms_version)s"
+msgid ""
+"Development version using django CMS %(cms_version)s, Django "
+"%(django_version)s, Python %(python_version)s"
+msgstr "Development version nutzt django CMS %(cms_version)s, Django %(django_version)s, Python %(python_version)s"
 
-#: templatetags/cms_tags.py:85
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "The following error occured:"
+msgstr "Der folgende Fehler ist aufgetreten:"
+
+#| msgid "Action successfull... reloading."
+msgid "Action successful... reloading."
+msgstr "Aktion erfolgreich... wird neu geladen"
+
+msgid "Are you sure you want to delete this plugin?"
+msgstr "Sind Sie sicher, dass Sie dieses Plugin löschen wollen?"
+
+msgid "Are you sure you want to publish this page?"
+msgstr "Sind Sie sicher, dass Sie diese Seite veröffentlichen wollen?"
+
+msgid "Plugin will be added here"
+msgstr "Das Plugin wird hier hinzugefügt"
+
+#| msgid "This page has unpublished changes."
+msgid "You have unsaved changes."
+msgstr "Es gibt ungespeicherte Änderungen."
+
+#| msgid "Are you sure you want to § this page?"
+msgid "Are you sure you want to abandon these changes?"
+msgstr "Sicher, dass die Änderungen verworfen werden sollen?"
+
+msgid ""
+"The form could not be loaded. Please check that the server is running "
+"correctly."
+msgstr "Das Formular konnte nicht geladen werden. Bitte überprüfen, dass der Server korrekt läuft."
+
+msgid "Shortcuts"
+msgstr "Tastenkombinationen"
+
+msgid "Bring up this help dialog"
+msgstr "Diesen Hilfedialog anzeigen"
+
+#| msgid "Cancel"
+msgid "Close/cancel"
+msgstr "Schließen/Abbrechen"
+
+msgid "Toggle structure mode"
+msgstr "Strukturmodus umschalten"
+
+msgid "Toggle structure mode and highlight hovered-over plugin"
+msgstr "Strukturmodus umschalten und angewähltes Plugin hervorheben."
+
+msgid "Open \"Create\" dialog"
+msgstr "Öffne \"Erstellen\" Dialog"
+
+msgid "Focus on Toolbar"
+msgstr "Toolbar fokussieren"
+
+#| msgid "static placeholders"
+msgid "Focus on placeholders"
+msgstr "Platzhalter fokussieren"
+
+msgid "Move to next/previous element"
+msgstr "Zu nächstem/vorherigem Element navigieren"
+
+#| msgid "Add plugin to placeholder"
+msgid "Focus on plugins of placeholder"
+msgstr "Plugins eines Platzhalters fokussieren"
+
+#| msgid "Add plugin"
+msgid "Edit plugin"
+msgstr "Plugin editieren"
+
+#| msgid "not in menu"
+msgid "Open actions menu"
+msgstr "Aktionsmenü öffnen"
+
+#| msgid "Expand all"
+msgid "Expand/collapse"
+msgstr "Ausklappen/Einklappen"
+
+msgid ""
+"<strong>Login failed.</strong> Please check your credentials and try again."
+msgstr "<strong>Login fehlgeschlagen.</strong> Bitte überprüfen Sie Ihre Zugangsdaten und versuchen Sie es erneut."
+
+msgid "This page has unpublished changes."
+msgstr "Diese Seite hat unveröffentlichte Änderungen"
+
+msgid "Installation successful!"
+msgstr "Installation erfolgreich!"
+
+msgid "Add your first page"
+msgstr "Erste Seite erstellen"
+
+msgid "Please log in"
+msgstr "Bitte Einloggen"
+
+#, python-format
+msgid ""
+"\n"
+"                    Welcome to django CMS version <strong>%(cms_version)s</strong>.\n"
+"                "
+msgstr "\nWillkommen zu django CMS Version <strong>%(cms_version)s</strong>."
+
+#, python-format
+msgid ""
+"\n"
+"                        <a href=\"%(admin_add_page)s\" class=\"js-welcome-add\">Add the first page</a> to the system to continue.\n"
+"                    "
+msgstr "\n<a href=\"%(admin_add_page)s\" class=\"js-welcome-add\">Erste Seite</a> zum System hinzufügen um fortzufahren."
+
+#, python-format
+msgid ""
+"\n"
+"                        JavaScript seems to be disabled so please\n"
+"                        <a href=\"%(admin_add_page)s\" class=\"js-welcome-add\">add a page</a> manually.\n"
+"                    "
+msgstr "\nJavascript scheint deaktiviert zu sein. Sie  können hier eine\n <a href=\"%(admin_add_page)s\" class=\"js-welcome-add\">Seite manuell hinzufügen</a>."
+
+msgid "Installation Notes"
+msgstr "Hinweise zur Installation"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid ""
+"\n"
+"                <p class=\"cms-welcome-notes\">If you don't see the django CMS logo at the top, make sure\n"
+"                    you linked the <code>static/cms</code> folder to your\n"
+"                    static files.</p>\n"
+"                <p class=\"cms-welcome-notes\">You're seeing this message because you have\n"
+"                    <code>DEBUG = True</code> in your django settings file and\n"
+"                    haven't added any pages yet.\n"
+"                </p>\n"
+"            "
+msgstr "\n<p class=\"cms-welcome-notes\">Falls das django CMS Logo oberhalb nicht angezeigt wird, stellen Sie sicher, dass der <code>static/cms</code> Ordner in Ihren Einstellungen registriert ist.</p>\n<p class=\"cms-welcome-notes\">Sie sehen diese Nachricht, weil\n<code>DEBUG = True</code> konfiguriert ist und bisher keine Seite erstellt wurde.\n</p>"
+
+msgid "Welcome to django CMS"
+msgstr "Willkommen im django CMS"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Please choose an option from below to proceed to the next step."
+msgstr "Bitte eine der Optionen unten wählen, um zum nächsten Schritt zu gelangen."
+
+msgid "Next"
+msgstr "Weiter"
+
+msgid "unpublished changes"
+msgstr "Nicht publizierte Änderungen"
+
+msgid "published"
+msgstr "Veröffentlicht"
+
+msgid "unpublished parent"
+msgstr "Nicht publizierte übergeordnete Seite"
+
+msgid "unpublished"
+msgstr "Nicht publiziert"
+
+msgid "no content"
+msgstr "Kein Inhalt"
+
 #, python-format
 msgid "Page not found on %(domain)s"
 msgstr "Seite nicht gefunden auf %(domain)s"
 
-#: templatetags/cms_tags.py:86
 #, python-format
 msgid ""
 "A template tag couldn't find the page with lookup arguments `%(page_lookup)s\n"
 "`. The URL of the request was: http://%(host)s%(path)s"
 msgstr "Ein Templatetag konnte die Seite `%(page_lookup)s\n` nicht finden. Die Addresse war: http://%(host)s%(path)s"
 
-#: test_utils/cli.py:106 test_utils/cli.py:116
-msgid "English"
-msgstr "Englisch"
+msgid "Two columns"
+msgstr "Zwei Spalten"
 
-#: test_utils/cli.py:107 test_utils/cli.py:128 test_utils/cli.py:146
-msgid "French"
-msgstr "Französisch"
+msgid "Three columns"
+msgstr "Drei Spalten"
 
-#: test_utils/cli.py:108 test_utils/cli.py:122 test_utils/cli.py:140
-#: test_utils/cli.py:159
-msgid "German"
-msgstr "Deutsch"
+msgid "username"
+msgstr "Benutzername"
 
-#: test_utils/cli.py:109 test_utils/cli.py:133
-msgid "Brazilian Portuguese"
-msgstr "Brasilianisch Portugiesisch"
+msgid ""
+"Required. 300 characters or fewer. Letters, numbers and @/./+/-/_ characters"
+msgstr "Erforderlich. 300 Zeichen oder weniger. Buchstaben, Zahlen und @/./.+/-/_ Zeichen"
 
-#: test_utils/cli.py:110 test_utils/cli.py:153
-msgid "Dutch"
-msgstr "Holländisch"
+msgid "Enter a valid username."
+msgstr "Gib einen gültigen Benutzernamen ein"
 
-#: test_utils/cli.py:169
-msgid "two columns"
-msgstr "Zwei Kolumnen"
+msgid "email address"
+msgstr "E-Mail-Adresse"
 
-#: test_utils/cli.py:170
-msgid "three columns"
-msgstr "Drei Kolumnen"
+msgid "staff status"
+msgstr "Mitarbeiterstatus"
 
-#: test_utils/cli.py:171
-msgid "navigation examples"
-msgstr "Navigation Beispiele"
+msgid "Designates whether the user can log into this admin site."
+msgstr "Bestimmt, ob sich der Benutzer im Admin-Bereich anmelden kann."
 
-#: test_utils/cli.py:177
-msgid "sidebar column"
-msgstr "Seitenspalte"
+msgid "active"
+msgstr "aktiv"
 
-#: test_utils/cli.py:183
-msgid "left column"
-msgstr "Linke Spalte"
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr "Bestimmt, ob der Benutzer als \"aktiv\" behandelt werden soll. Entfernen Sie diese Option, anstatt das Benutzerkonto zu löschen."
 
-#: test_utils/cli.py:189
-msgid "right column"
-msgstr "Rechte Spalte"
+msgid "users"
+msgstr "Benutzer"
 
-#: test_utils/project/placeholderapp/cms_plugins.py:7
-msgid "Test Plugin"
-msgstr "Test Plugin"
+msgid "Title Extension"
+msgstr "Titel Erweiterung"
 
-#: test_utils/project/pluginapp/plugins/extra_context/cms_plugins.py:9
+msgid "Page Extension"
+msgstr "Seiten Erweiterung"
+
+msgid "object ID"
+msgstr "Objekt ID"
+
+msgid "Example1 App"
+msgstr "Beispiel1 App"
+
+msgid "MultilingualExample1 App"
+msgstr "Mehrsprachiges Beispiel1 App"
+
+msgid "Example1"
+msgstr "Beispiel1"
+
+msgid "Examples"
+msgstr "Beispiele"
+
 msgid "Extra Context"
-msgstr "Extra Context"
+msgstr "Extra-Context"
 
-#: test_utils/project/pluginapp/plugins/manytomany_rel/cms_plugins.py:13
 msgid "Articles"
 msgstr "Artikel"
 
-#: test_utils/project/sampleapp/cms_app.py:7
 msgid "Sample App"
-msgstr "Beispiel App"
+msgstr "Beispiel-App"
 
-#: test_utils/project/sampleapp/cms_app.py:15
+msgid "Sample App with excluded permissions"
+msgstr "Beispiel-App mit \"excluded permissions\""
+
 msgid "Sample App 2"
-msgstr "Beispiel App 2"
+msgstr "Beispiel-App 2"
 
-#: test_utils/project/sampleapp/cms_app.py:22
+#| msgid "Sample App 2"
+msgid "Sample App 3"
+msgstr "Muster App 3"
+
 msgid "Namespaced App"
 msgstr "App mit Namensraum"
 
-#: test_utils/project/sampleapp/menu.py:16
+msgid "Parent app"
+msgstr "Übergeordnete Applikation"
+
+msgid "Child app"
+msgstr "Untergeordnete Applikation"
+
+msgid "Variable urls-menus App"
+msgstr "Variable urls-menus Applikation"
+
 msgid "sample root page"
-msgstr "Beispiel Root Seite"
+msgstr "Beispiel-Root-Seite"
 
-#: test_utils/project/sampleapp/menu.py:17
 msgid "sample settings page"
-msgstr "Beispiel Einstellung Seite "
+msgstr "Beispiel-Einstellungsseite "
 
-#: test_utils/project/sampleapp/menu.py:18
 msgid "sample account page"
-msgstr "Beispiel Konto Seite"
+msgstr "Beispiel-Kontoseite"
 
-#: test_utils/project/sampleapp/menu.py:19
 msgid "sample my profile page"
-msgstr "Beispiel Profil Seite"
+msgstr "Beispiel-Profilseite"
 
-#: test_utils/project/sampleapp/menu.py:31
 msgid "Static Menu"
 msgstr "Statisches Menü"
 
-#: test_utils/project/sampleapp/menu.py:47
 msgid "Static Menu2"
 msgstr "Statisches Menü 2"
 
-#: test_utils/project/sampleapp/urls.py:12
+msgid "Static Menu3"
+msgstr "Statisches Menü 3"
+
+#| msgid "Static Menu"
+msgid "Static Menu4"
+msgstr "Statisches Menü 4"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Categories"
+msgstr "Kategorien"
+
+msgid "Add Category"
+msgstr "Kategorie hinzufügen"
+
 msgid "^account/$"
 msgstr "^account/$"
 
-#: utils/conf.py:81
+msgid "Change Category"
+msgstr "Kategorie bearbeiten"
+
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "Danke, dass sie heute ein schöne Zeit mit ihrer Webseite verbracht haben."
+
 msgid "Inherit the template of the nearest ancestor"
 msgstr "Die Vorlage der nächsten übergeordneten Seite verwenden"
 
-#: utils/mail.py:37
+msgid "UserSettings"
+msgstr "Benutzer-Einstellungen"
+
+#, python-format
+#| msgid "Add plugin to placeholder"
+msgid "Add plugin to placeholder \"%(placeholder_label)s\""
+msgstr "Plugin zu Platzhalter \"%(placeholder_label)s\" hinzufügen"
+
+#, python-format
+#| msgid "Add plugin to placeholder"
+msgid "Add plugin to %(plugin_name)s"
+msgstr "Plugin zu %(plugin_name)s hinzufügen"
+
 msgid "CMS - your user account was created."
 msgstr "CMS - Ihr Benutzerkonto wurde erstellt."
 
-#: utils/mail.py:39
 msgid "CMS - your user account was changed."
 msgstr "CMS - Ihr Benutzerkonto wurde verändert."
 
-#: utils/page_resolver.py:165
 msgid "Invalid URL, use /my/url format."
 msgstr "Keine korrekte URL. Bitte verwenden sie das Format: /meine/url/"
 
-#: utils/page_resolver.py:197
 #, python-format
 msgid ""
 "Page %(pages)s has the same url '%(url)s' as current page \"%(instance)s\"."
@@ -1867,35 +1600,282 @@ msgid_plural ""
 msgstr[0] "Die Seite %(pages)s hat die gleiche URL '%(url)s' wie die momentane Seite \"%(instance)s\"."
 msgstr[1] "Die Seiten %(pages)s haben die gleiche URL '%(url)s' wie die momentane Seite \"%(instance)s\"."
 
-#~ msgid "delete req."
-#~ msgstr "deletion request"
+#, python-format
+msgid "This placeholder already has the maximum number of plugins (%s)."
+msgstr "Dieser Placeholder hat bereits die maximale Anzahl von %s Plugins."
 
-#~ msgid "move req."
-#~ msgstr "move request"
+#, python-format
+msgid ""
+"This placeholder already has the maximum number (%(limit)s) of allowed "
+"%(plugin_name)s plugins."
+msgstr "Dieser Placeholder hat bereits die maximale Anzahl (%(limit)s) von erlaubten %(plugin_name)s Plugins."
 
-#~ msgid "url overwrite"
-#~ msgstr "URL overwrite"
+#, python-brace-format
+msgid "Unable to find the specified CMS_REQUEST_IP_RESOLVER module: \"{0}\"."
+msgstr "Konnte das Modul CMS_REQUEST_IP_RESOLVER nicht finden: \"{0}\"."
 
-#~ msgid "unpublish req."
-#~ msgstr "unpublish request"
+#, python-brace-format
+msgid ""
+"Unable to find the specified CMS_REQUEST_IP_RESOLVER function: \"{0}\" in "
+"module \"{1}\"."
+msgstr "Konnte die Funktion CMS_REQUEST_IP_RESOLVER nicht finden: \"{0}\" in module \"{1}\"."
 
-#~ msgid "req. app."
-#~ msgstr "approval required"
+#, python-format
+msgid "Create a new %s instance."
+msgstr "Neue %s Instanz erstellen."
 
-#~ msgid "(requires approvement at %(moderation_level)s level)"
-#~ msgstr "(requires approval at %(moderation_level)s level)"
+#, python-format
+msgid "A wizard has already been registered for model: %s"
+msgstr "Ein \"Wizard\" wurde bereits für dieses Modal registriert: %s"
 
-#~ msgid "Request approvemet"
-#~ msgstr "Request approval"
+#~ msgid "Add page permission also requires edit page permission."
+#~ msgstr "Add page permission also requires edit page permission."
 
-#~ msgid "CMS - Page %s requires approvement."
-#~ msgstr "CMS - Page %s requires approval."
+#~ msgid "Recover (any) pages"
+#~ msgstr "Recover (any) pages"
 
-#~ msgid "move"
-#~ msgstr "move request"
+#~ msgid "Notify user"
+#~ msgstr "Notify user"
 
-#~ msgid "fgcolor"
-#~ msgstr "foreground color"
+#~ msgid ""
+#~ "Send email notification to user about username or password change. Requires "
+#~ "user email."
+#~ msgstr ""
+#~ "Send email notification to user about username or password change. Requires "
+#~ "user email."
 
-#~ msgid "Wanted language has not been translated yet."
-#~ msgstr "Requested language has not been translated yet."
+#~ msgid "New password"
+#~ msgstr "New password"
+
+#~ msgid "New password confirmation"
+#~ msgstr "New password confirmation"
+
+#~ msgid "Email notification requires valid email address."
+#~ msgstr "Email notification requires valid email address."
+
+#~ msgid ""
+#~ "The permission to add new pages requires the permission to change pages!"
+#~ msgstr ""
+#~ "The permission to add new pages requires the permission to change pages!"
+
+#~ msgid ""
+#~ "The permission to add new users requires the permission to change users!"
+#~ msgstr ""
+#~ "The permission to add new users requires the permission to change users!"
+
+#~ msgid "To add permissions you also need to edit them!"
+#~ msgstr "To add permissions you also need to edit them!"
+
+#~ msgid "%(plugin_name)s plugin added to %(placeholder)s"
+#~ msgstr "%(plugin_name)s plugin added to %(placeholder)s"
+
+#~ msgid "Copied plugins to %(placeholder)s"
+#~ msgstr "Copied plugins to %(placeholder)s"
+
+#~ msgid ""
+#~ "%(plugin_name)s plugin edited at position %(position)s in %(placeholder)s"
+#~ msgstr ""
+#~ "%(plugin_name)s plugin edited at position %(position)s in %(placeholder)s"
+
+#~ msgid "Moved plugins to %(placeholder)s"
+#~ msgstr "Copied plugins to %(placeholder)s"
+
+#~ msgid ""
+#~ "%(plugin_name)s plugin at position %(position)s in %(placeholder)s was "
+#~ "deleted."
+#~ msgstr ""
+#~ "%(plugin_name)s plugin at position %(position)s in %(placeholder)s was "
+#~ "deleted."
+
+#~ msgid "All plugins in the placeholder \"%(name)s\" were deleted."
+#~ msgstr "All plugins in the placeholder \"%(name)s\" were deleted."
+
+#~ msgid "Database error"
+#~ msgstr "Database error"
+
+#~ msgid "Page reverted but slug stays the same because of url collisions."
+#~ msgstr "Page reverted but slug stays the same because of url collisions."
+
+#~ msgid "Template changed to %s"
+#~ msgstr "Template changed to %s"
+
+#~ msgid "Page moved"
+#~ msgstr "Page moved"
+
+#~ msgid "Copied plugins from %(source_language)s to %(target_language)s"
+#~ msgstr "Copied plugins from %(source_language)s to %(target_language)s"
+
+#~ msgid "The page \"%s\" was successfully reverted."
+#~ msgstr "The page \"%s\" was successfully reverted."
+
+#~ msgid "History"
+#~ msgstr "History"
+
+#~ msgid "Undo"
+#~ msgstr "Undo"
+
+#~ msgid "Redo"
+#~ msgstr "Redo"
+
+#~ msgid "View history"
+#~ msgstr "View history"
+
+#~ msgid ""
+#~ "\n"
+#~ "                Recover deleted %(verbose_name)s\n"
+#~ "            "
+#~ msgstr "Recover deleted %(verbose_name)s"
+
+#~ msgid "Press the save button below to recover this version of the object."
+#~ msgstr "Press the save button below to recover this version of the object."
+
+#~ msgid "Revert %(verbose_name)s"
+#~ msgstr "Revert %(verbose_name)s"
+
+#~ msgid "Press the save button below to revert to this version of the object."
+#~ msgstr "Press the save button below to revert to this version of the object."
+
+#~ msgid "home"
+#~ msgstr "home"
+
+#~ msgid "softroot"
+#~ msgstr "softroot"
+
+#~ msgid "({1}) plugin is empty. Remove it?"
+#~ msgstr "({1}) plugin is empty. Remove it?"
+
+#~ msgid "sample second page"
+#~ msgstr "sample account page"
+
+#~ msgid "Plugins were moved"
+#~ msgstr "Plugins were moved"
+
+#~ msgid "Path Overflow from: '%s'"
+#~ msgstr "Path Overflow from: '%s'"
+
+#~ msgid ""
+#~ "The new node is too deep in the tree, try increasing the path.max_length "
+#~ "property and UPDATE your database"
+#~ msgstr ""
+#~ "The new node is too deep in the tree, try increasing the path.max_length "
+#~ "property and UPDATE your database"
+
+#~ msgid "An error occured. Please reload the page"
+#~ msgstr "An error occured. Please reload the page"
+
+#~ msgid "Recover deleted %(name)s"
+#~ msgstr "Recover deleted %(name)s"
+
+#~ msgid "Add %(name)s"
+#~ msgstr "Add %(name)s"
+
+#~ msgid "Pages on:"
+#~ msgstr "Pages on:"
+
+#~ msgid "%(counter)s result"
+#~ msgid_plural "%(counter)s results"
+#~ msgstr[0] "a848884d0af974a125106fa2043a5716_pl_0"
+#~ msgstr[1] "a848884d0af974a125106fa2043a5716_pl_1"
+
+#~ msgid "%(full_result_count)s total"
+#~ msgstr "%(full_result_count)s total"
+
+#~ msgid "Show all"
+#~ msgstr "Show all"
+
+#~ msgid "Filter:"
+#~ msgstr "Filter:"
+
+#~ msgid "on"
+#~ msgstr "on"
+
+#~ msgid "off"
+#~ msgstr "off"
+
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid ""
+#~ "<em>There is no page around yet.</em><br /><a href=\"add/\" "
+#~ "class=\"addlink\">Add page</a> now."
+#~ msgstr ""
+#~ "<em>There is no page around yet.</em><br /><a href=\"add/\" "
+#~ "class=\"addlink\">Add page</a> now."
+
+#~ msgid "insert above"
+#~ msgstr "insert above"
+
+#~ msgid "insert below"
+#~ msgstr "insert below"
+
+#~ msgid "insert inside"
+#~ msgstr "insert inside"
+
+#~ msgid "Pick an action:"
+#~ msgstr "Pick an action:"
+
+#~ msgid "page settings"
+#~ msgstr "page settings"
+
+#~ msgid "copy"
+#~ msgstr "copy"
+
+#~ msgid "Add Child"
+#~ msgstr "Add Child"
+
+#~ msgid "add"
+#~ msgstr "add"
+
+#~ msgid "cut"
+#~ msgstr "cut"
+
+#~ msgid "delete"
+#~ msgstr "delete"
+
+#~ msgid "info"
+#~ msgstr "info"
+
+#~ msgid "Information"
+#~ msgstr "Information"
+
+#~ msgid "<span>%(icon)s</span>"
+#~ msgstr "<span>%(icon)s</span>"
+
+#~ msgid "English"
+#~ msgstr "English"
+
+#~ msgid "French"
+#~ msgstr "French"
+
+#~ msgid "German"
+#~ msgstr "German"
+
+#~ msgid "Brazilian Portuguese"
+#~ msgstr "Brazilian Portuguese"
+
+#~ msgid "Dutch"
+#~ msgstr "Dutch"
+
+#~ msgid "two columns"
+#~ msgstr "two columns"
+
+#~ msgid "three columns"
+#~ msgstr "three columns"
+
+#~ msgid "navigation examples"
+#~ msgstr "navigation examples"
+
+#~ msgid "sidebar column"
+#~ msgstr "sidebar column"
+
+#~ msgid "left column"
+#~ msgstr "left column"
+
+#~ msgid "Add a link"
+#~ msgstr "Add a link"
+
+#~ msgid "right column"
+#~ msgstr "right column"

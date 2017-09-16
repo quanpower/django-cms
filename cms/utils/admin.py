@@ -1,16 +1,20 @@
 # -*- coding: utf-8 -*-
-from django.conf import settings
-from django.http import HttpResponse
-from django.shortcuts import render_to_response
-from django.template.context import RequestContext
-from django.utils import simplejson
-from django.contrib.sites.models import Site
+import json
+from collections import defaultdict
 
-from cms.models import Page
-from cms.utils import permissions, moderator, get_language_from_request, get_language_list, get_cms_setting
-from cms.utils.permissions import has_global_page_permission
+from django.contrib.admin.options import IS_POPUP_VAR
+from django.contrib.sites.models import Site
+from django.http import HttpResponse
+from django.template.loader import get_template
+from django.utils.encoding import smart_str
+
+from cms.models import EmptyTitle, Title
+from cms.utils import get_language_from_request, get_language_list, get_cms_setting
+from cms.utils import page_permissions
+
 
 NOT_FOUND_RESPONSE = "NotFound"
+
 
 def jsonify_request(response):
     """ Turn any response in a 200 response to let jQuery code handle it nicely.
@@ -18,94 +22,112 @@ def jsonify_request(response):
          * status: original response status code
          * content: original response content
     """
-    return HttpResponse(simplejson.dumps({'status':response.status_code,'content':response.content}),
-                                content_type="application/json")
+    content = {'status': response.status_code, 'content': smart_str(response.content, response.charset)}
+    return HttpResponse(json.dumps(content), content_type="application/json")
 
-publisher_classes = {
-    Page.PUBLISHER_STATE_DIRTY: "publisher_dirty",
-    Page.PUBLISHER_STATE_PENDING: "publisher_pending",
-}
 
-def get_admin_menu_item_context(request, page, filtered=False):
+def render_admin_rows(request, pages, site, filtered=False, language=None):
     """
     Used for rendering the page tree, inserts into context everything what
     we need for single item
     """
-    has_add_page_permission = page.has_add_permission(request)
-    has_move_page_permission = page.has_move_page_permission(request)
-    
+    user = request.user
     site = Site.objects.get_current()
     lang = get_language_from_request(request)
-    #slug = page.get_slug(language=lang, fallback=True) # why was this here ??
-    metadata = ""
-    if get_cms_setting('PERMISSION'):
-        # jstree metadata generator 
-        md = []
-        
-        #if not has_add_page_permission:
-        if not has_move_page_permission:
-            md.append(('valid_children', False))
-            md.append(('draggable', False))
-        if md:
-            # just turn it into simple javascript object
-            metadata = "{" + ", ".join(map(lambda e: "%s: %s" %(e[0], 
-                isinstance(e[1], bool) and str(e[1]) or e[1].lower() ), md)) + "}"
-        
-    has_add_on_same_level_permission = False
-    opts = Page._meta
-    if get_cms_setting('PERMISSION'):
-        perms = has_global_page_permission(request, page.site_id, can_add=True)
-        if (request.user.has_perm(opts.app_label + '.' + opts.get_add_permission()) and perms):
-            has_add_on_same_level_permission = True
+    permissions_on = get_cms_setting('PERMISSION')
 
+    user_can_add = page_permissions.user_can_add_subpage
+    user_can_move = page_permissions.user_can_move_page
+    user_can_change = page_permissions.user_can_change_page
+    user_can_change_advanced_settings = page_permissions.user_can_change_page_advanced_settings
+    user_can_publish = page_permissions.user_can_publish_page
 
-    if not page.published:
-        css_class = "publisher_draft"
+    template = get_template('admin/cms/page/tree/menu.html')
+
+    if not language:
+        language = get_language_from_request(request)
+
+    filtered = filtered or request.GET.get('q')
+
+    if filtered:
+        # When the tree is filtered, it's displayed as a flat structure
+        # therefore there's no concept of open nodes.
+        open_nodes = []
     else:
-        css_class = publisher_classes.get(page.publisher_state, "")
+        open_nodes = list(map(int, request.GET.getlist('openNodes[]')))
 
-    if not has_add_on_same_level_permission and page.parent_id:
-        has_add_on_same_level_permission = permissions.has_generic_permission(page.parent_id, request.user, "add", page.site)
-    #has_add_on_same_level_permission = has_add_page_on_same_level_permission(request, page)
-    context = {
-        'page': page,
-        'site': site,
-        'lang': lang,
-        'filtered': filtered,
-        'metadata': metadata,
-        'css_class': css_class,
-        
-        'has_change_permission': page.has_change_permission(request),
-        'has_publish_permission': page.has_publish_permission(request),
-        'has_delete_permission': page.has_delete_permission(request),
-        'has_move_page_permission': has_move_page_permission,
-        'has_add_page_permission': has_add_page_permission,
-        'has_add_on_same_level_permission': has_add_on_same_level_permission,
-        'CMS_PERMISSION': get_cms_setting('PERMISSION'),
-        'CMS_SHOW_END_DATE': get_cms_setting('SHOW_END_DATE'),
-    }
-    return context
+    languages = get_language_list(site.pk)
 
+    page_ids = []
 
-def render_admin_menu_item(request, page, template=None):
-    """
-    Renders requested page item for the tree. This is used in case when item
-    must be reloaded over ajax.
-    """
-    if not template:
-        template = "admin/cms/page/menu_fragment.html"
+    for page in pages:
+        page_ids.append(page.pk)
 
-    if not page.pk:
-        return HttpResponse(NOT_FOUND_RESPONSE) # Not found - tree will remove item
-        
-    # languages
-    languages = get_language_list(page.site_id)
-    context = RequestContext(request, {
-        'has_add_permission': permissions.has_page_add_permission(request),
-        'site_languages': languages,
-    })
-    
-    filtered = 'filtered' in request.REQUEST
-    context.update(get_admin_menu_item_context(request, page, filtered))
-    # add mimetype to help out IE
-    return render_to_response(template, context, mimetype="text/html; charset=utf-8")
+        if page.publisher_public_id:
+            page_ids.append(page.publisher_public_id)
+
+    cms_title_cache = defaultdict(dict)
+
+    cms_page_titles = Title.objects.filter(
+        page__in=page_ids,
+        language__in=languages
+    )
+
+    for cms_title in cms_page_titles.iterator():
+        cms_title_cache[cms_title.page_id][cms_title.language] = cms_title
+
+    def render_page_row(page):
+        page_cache = cms_title_cache[page.pk]
+
+        for language in languages:
+            page_cache.setdefault(language, EmptyTitle(language=language))
+
+        page.title_cache = cms_title_cache[page.pk]
+
+        if page.publisher_public_id:
+            publisher_cache = cms_title_cache[page.publisher_public_id]
+
+            for language in languages:
+                publisher_cache.setdefault(language, EmptyTitle(language=language))
+            page.publisher_public.title_cache = publisher_cache
+
+        has_move_page_permission = user_can_move(user, page)
+
+        metadata = ""
+
+        if permissions_on and not has_move_page_permission:
+            # jstree metadata generator
+            md = [('valid_children', False), ('draggable', False)]
+            # just turn it into simple javascript object
+            metadata = "{" + ", ".join(map(lambda e: "%s: %s" % (e[0],
+            isinstance(e[1], bool) and str(e[1]) or e[1].lower() ), md)) + "}"
+
+        if filtered:
+            children = page.children.none()
+        else:
+            children = page.get_children()
+
+        context = {
+            'request': request,
+            'page': page,
+            'site': site,
+            'lang': lang,
+            'filtered': filtered,
+            'metadata': metadata,
+            'page_languages': page.get_languages(),
+            'preview_language': lang,
+            'has_add_page_permission': user_can_add(user, target=page),
+            'has_change_permission': user_can_change(user, page),
+            'has_change_advanced_settings_permission': user_can_change_advanced_settings(user, page),
+            'has_publish_permission': user_can_publish(user, page),
+            'has_move_page_permission': has_move_page_permission,
+            'children': children,
+            'site_languages': languages,
+            'open_nodes': open_nodes,
+            'cms_current_site': site,
+            'is_popup': (IS_POPUP_VAR in request.POST or IS_POPUP_VAR in request.GET)
+        }
+        return template.render(context)
+
+    rendered = (render_page_row(page) for page in pages)
+    return ''.join(rendered)
